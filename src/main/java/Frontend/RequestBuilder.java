@@ -4,7 +4,6 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 public class RequestBuilder {
-    InetAddress localHost = null;
     private String customerID = null;
     private String movieID = null;
     private String movieName = null;
@@ -19,7 +18,7 @@ public class RequestBuilder {
     public RequestBuilder(String invokedMethod, String customerID, String movieID, String movieName, String newMovieID, int bookingCapacity, String newMovieName) {
         this.bookingCapacity = bookingCapacity;
         this.invokedMethod =invokedMethod;
-        this.IPAddress = getLocalHost().getHostAddress();
+        this.IPAddress =
         this.customerID = customerID;
         this.movieID = movieID;
         this.movieName = movieName;
@@ -27,33 +26,53 @@ public class RequestBuilder {
         this.newMovieName = newMovieName;
     }
 
-    public InetAddress getLocalHost() {
-        try {
-            return InetAddress.getLocalHost();
-        } catch (Exception ex) {
-             ex.getStackTrace();
-        }
-        return null;
-    }
-
     public int getSequenceNumber() {
         return sequenceNumber;
+    }
+
+    public int getBookingCapacity() {
+        return bookingCapacity;
+    }
+
+    public int getRetryCount() {
+        return retryCount;
+    }
+
+    public String getNewMovieName() {
+        return newMovieName;
+    }
+
+    public String getNewMovieID() {
+        return this.newMovieID;
+    }
+
+    public String getCustomerID() {
+        return this.customerID;
+    }
+
+    public String getMovieName() {
+        return this.movieName;
+    }
+
+    public String getMovieID() {
+        return this.movieID;
+    }
+
+    public String getInvokedMethod() {
+        return this.invokedMethod;
     }
 
     public void setSequenceNumber(int sequenceNumber) {
         this.sequenceNumber = sequenceNumber;
     }
 
-    public String toString() {
-        return getSequenceNumber() + ";" ;//+
-//                ().toUpperCase() + ";" +
-//                getMessageType().toUpperCase() + ";" +
-//                getFunction().toUpperCase() + ";" +
-//                getClientID().toUpperCase() + ";" +
-//                getEventID().toUpperCase() + ";" +
-//                getEventType().toUpperCase() + ";" +
-//                getOldEventID().toUpperCase() + ";" +
-//                getOldEventType().toUpperCase() + ";" +
-//                getBookingCapacity();
+    public String requestBuilderString() {
+        return getSequenceNumber() + ";" +
+                getInvokedMethod().toUpperCase() + ";" +
+                getMovieID().toUpperCase() + ";" +
+                getMovieName().toUpperCase() + ";" +
+                getNewMovieID().toUpperCase() + ";" +
+                getNewMovieName().toUpperCase() + ";" +
+                getBookingCapacity();
     }
 }
