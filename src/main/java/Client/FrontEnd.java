@@ -2,16 +2,14 @@ package Client;
 
 import Constant.ClientConstant;
 import Constant.ServerConstant;
+import Frontend.IFrontEnd;
 import Replicas.Replica1.Log.ILogging;
 import Replicas.Replica1.Log.Logging;
-import Replicas.Replica1.Service.IMovieTicket;
 import Replicas.Replica1.Shared.data.IMovie;
 import Replicas.Replica1.Shared.data.IUser;
 import Replicas.Replica1.Shared.data.Util;
 
-import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -24,7 +22,7 @@ public class FrontEnd {
     Logger logger;
     private IMovie movieService = null;
     private IUser userService = null;
-    IMovieTicket movieTicketServiceObj = null;
+    IFrontEnd movieTicketServiceObj = null;
     int menuSelection = -1;
     String response = null;
     Scanner scanner = null;
@@ -74,14 +72,17 @@ public class FrontEnd {
     }
 
     public void getUrlRef() {
-        try {
-            url = new URL("http://localhost:8080/"+Util.getServerFullNameByCustomerID(this.userService.getUserID())+"?wsdl");
-            QName qName = new QName("http://Service.Server/", "MovieTicketService");
-            serviceAPI = Service.create(url, qName);
-            movieTicketServiceObj = serviceAPI.getPort(IMovieTicket.class); //Port of Interface at which Implementation is running
-        } catch (MalformedURLException ex) {
-            ex.getStackTrace();
-        }
+        movieTicketServiceObj.listenUDPResponse();
+//        movieTicketServiceObj = serviceAPI.getPort(IMovieTicket.class); //Port of Interface at which Implementation is running
+//
+//        try {
+//            url = new URL("http://localhost:8080/"+Util.getServerFullNameByCustomerID(this.userService.getUserID())+"?wsdl");
+//            QName qName = new QName("http://Service.Server/", "MovieTicketService");
+//            serviceAPI = Service.create(url, qName);
+//            movieTicketServiceObj = serviceAPI.getPort(IMovieTicket.class); //Port of Interface at which Implementation is running
+//        } catch (MalformedURLException ex) {
+//            ex.getStackTrace();
+//        }
     }
 
     public void menu() {
