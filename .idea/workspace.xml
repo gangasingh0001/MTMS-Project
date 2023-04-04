@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7bbcc0-2498-42e0-8d79-07941ef25833" name="Changes" comment="Completed the code flow">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cd7bbcc0-2498-42e0-8d79-07941ef25833" name="Changes" comment="Added code">
       <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/RequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/RequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/UdpRecieveFromReplicaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/UdpRecieveFromReplicaManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/UdpSendToSequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/UdpSendToSequencer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ClientConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ClientConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ServerConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ServerConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ServiceConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ServiceConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/ReplicaManager1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/ReplicaManager1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/ServerInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/ServerInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Service/MovieTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Service/MovieTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/ServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/ServerInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sequencer/Sequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sequencer/Sequencer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/MessageDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/MessageDataModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/MessageResponseDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/MessageResponseDataModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/sortRmResponses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/sortRmResponses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +148,7 @@
       <workItem from="1680289940879" duration="8414000" />
       <workItem from="1680449942649" duration="13831000" />
       <workItem from="1680546557965" duration="187000" />
-      <workItem from="1680546848846" duration="31036000" />
+      <workItem from="1680546848846" duration="31467000" />
     </task>
     <task id="LOCAL-00001" summary="Added Started code">
       <created>1680293696636</created>
@@ -189,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680575072143</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added code">
+      <created>1680650123725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680650123725</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +198,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Started code" />
     <MESSAGE value="Completed the code flow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed the code flow" />
+    <MESSAGE value="Added code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,11 +208,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java</url>
           <line>145</line>
           <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Frontend/UdpSendToSequencer.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

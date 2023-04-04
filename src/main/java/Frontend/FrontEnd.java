@@ -21,6 +21,8 @@ public class FrontEnd implements IFrontEnd{
     private final List<String> responses = new ArrayList<>();
     private IMovie movieService = null;
     private IUser userService = null;
+    UdpSendToSequencer frontend = null;
+
 
     UdpRecieveFromReplicaManager udpRecieveFromReplicaManager;
 
@@ -36,19 +38,17 @@ public class FrontEnd implements IFrontEnd{
         };
         Thread listenerThread = new Thread(listenerTask);
         listenerThread.start();
+        try {
+            frontend = new UdpSendToSequencer(InetAddress.getByName(Constants.Sequencer_IPAddress), Constants.Sequencer_Port);
+        } catch (UnknownHostException e) {
+            throw new RuntimeException(e);
+        }
     }
     @Override
     public void rmIsDown(int rmNumber) {
 
     }
     public int sendRequestToSequencer(RequestBuilder request) {
-        UdpSendToSequencer frontend = null;
-        try {
-            frontend = new UdpSendToSequencer(InetAddress.getByName(Constants.Sequencer_IPAddress), Constants.Sequencer_Port);
-        } catch (UnknownHostException e) {
-            throw new RuntimeException(e);
-        }
-
         // Send a request to the Sequencer
         return frontend.sendRequest(request.requestBuilderString());
     }
