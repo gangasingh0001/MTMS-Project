@@ -39,7 +39,7 @@ public class FrontEnd {
         scanner = new Scanner(System.in);
         logger = Logger.getLogger(Client.class.getName());
         this.args = args;
-        movieTicketServiceObj = new Frontend.FrontEnd();
+        movieTicketServiceObj = new Frontend.FrontEnd(userService,movieService);
     }
 
     public void attachLogging(String userID) {
