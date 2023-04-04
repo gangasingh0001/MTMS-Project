@@ -3,10 +3,7 @@ package Frontend;
 import Util.Constants;
 
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.SocketException;
+import java.net.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
@@ -17,18 +14,21 @@ public class FrontEnd implements IFrontEnd{
     private CountDownLatch latch;
     private static long DYNAMIC_TIMEOUT = 10000;
     private final List<String> responses = new ArrayList<>();
-
-    public FrontEnd() {
-        listenForUDPResponses();
-    }
     @Override
     public void rmIsDown(int rmNumber) {
 
     }
 
-    @Override
     public int sendRequestToSequencer(RequestBuilder request) {
+        UdpSendToSequencer frontend = null;
+        try {
+            frontend = new UdpSendToSequencer(InetAddress.getByName(Constants.Sequencer_IPAddress), Constants.Sequencer_Port);
+        } catch (UnknownHostException e) {
+            throw new RuntimeException(e);
+        }
 
+        // Send a request to the Sequencer
+        return frontend.sendRequest(request.toString());
     }
 
     @Override
@@ -43,10 +43,7 @@ public class FrontEnd implements IFrontEnd{
 
     @Override
     public String addMovieSlots(String movieId, String movieName, int bookingCapacity) {
-        RequestBuilder myRequest = new RequestBuilder("addMovieSlots",null,movieId,movieName,null,bookingCapacity,null);
-        myRequest.setSequenceNumber(sendUdpUnicastToSequencer(myRequest));
-        System.out.println("FE Implementation:bookEvent>>>" + myRequest.toString());
-        return validateResponses(myRequest);
+        return null;
     }
 
     @Override
@@ -56,7 +53,10 @@ public class FrontEnd implements IFrontEnd{
 
     @Override
     public String listMovieShowsAvailability(String movieName) {
-        return null;
+        RequestBuilder myRequest = new RequestBuilder("listMovieShowsAvailability",null,null,movieName,null,-1,null);
+        myRequest.setSequenceNumber(sendUdpUnicastToSequencer(myRequest));
+        System.out.println("FE Implementation:listMovieShowsAvailability>>>" + myRequest.toString());
+        return "validateResponses(myRequest)";
     }
 
     @Override
@@ -107,32 +107,5 @@ public class FrontEnd implements IFrontEnd{
             DYNAMIC_TIMEOUT = 10000;
         }
         System.out.println("FE Implementation:setDynamicTimout>>>" + DYNAMIC_TIMEOUT);
-    }
-
-    private static void listenForUDPResponses() {
-        DatagramSocket aSocket = null;
-        try {
-            InetAddress desiredAddress = InetAddress.getByName(Constants.FE_IPAddress);
-            aSocket = new DatagramSocket(Constants.FE_Port, desiredAddress);
-            byte[] buffer = new byte[1000];
-            System.out.println("FE Server Started on " + desiredAddress + ":" + Constants.FE_Port + "............");
-
-            while (true) {
-                DatagramPacket response = new DatagramPacket(buffer, buffer.length);
-                aSocket.receive(response);
-                String sentence = new String(response.getData(), 0,
-                        response.getLength()).trim();
-                System.out.println("FE:Response received from Rm>>>" + sentence);
-                //RmResponse rmResponse = new RmResponse(sentence);
-
-                System.out.println("Adding response to FrontEndImplementation:");
-                responses.add(response);
-            }
-
-        } catch (SocketException e) {
-            System.out.println("Socket: " + e.getMessage());
-        } catch (IOException e) {
-            System.out.println("IO: " + e.getMessage());
-        }
     }
 }

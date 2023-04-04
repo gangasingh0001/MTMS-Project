@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd7bbcc0-2498-42e0-8d79-07941ef25833" name="Changes" comment="Added Started code">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Util/Udp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Frontend/UdpRecieveFromReplicaManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Frontend/UdpSendToSequencer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client/FrontEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/IFrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/IFrontEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/RequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/RequestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/Database/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/Database/Movies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/ReplicaManager1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/ReplicaManager1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Service/MovieTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Service/MovieTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sequencer/Sequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sequencer/Sequencer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Udp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/Udp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +59,87 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.Client" />
+      <module name="MTBS-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReplicaManager1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replicas.Replica1.ReplicaManager1" />
+      <module name="MTBS-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Replicas.Replica1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sequencer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sequencer.Sequencer" />
+      <module name="MTBS-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sequencer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replicas.Replica1.ServerInstance" />
+      <module name="MTBS-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Replicas.Replica1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UdpRecieveFromReplicaManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Frontend.UdpRecieveFromReplicaManager" />
+      <module name="MTBS-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.UdpRecieveFromReplicaManager" />
+        <item itemvalue="Application.ReplicaManager1" />
+        <item itemvalue="Application.Sequencer" />
+        <item itemvalue="Application.ServerInstance" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +150,9 @@
       <updated>1680284899230</updated>
       <workItem from="1680284900416" duration="3068000" />
       <workItem from="1680289940879" duration="8414000" />
-      <workItem from="1680449942649" duration="1390000" />
+      <workItem from="1680449942649" duration="13831000" />
+      <workItem from="1680546557965" duration="187000" />
+      <workItem from="1680546848846" duration="14432000" />
     </task>
     <task id="LOCAL-00001" summary="Added Started code">
       <created>1680293696636</created>
@@ -108,8 +189,39 @@
     <MESSAGE value="Added Started code" />
     <option name="LAST_COMMIT_MESSAGE" value="Added Started code" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Replicas/Replica1/ReplicaManager1.java</url>
+          <line>190</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sequencer/Sequencer.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Sequencer/Sequencer.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Frontend/UdpSendToSequencer.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MTBS_Project$ReplicaManager1.ic" NAME="ReplicaManager1 Coverage Results" MODIFIED="1680493359699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Replicas.Replica1.*</FILTER>
+    </SUITE>
   </component>
 </project>

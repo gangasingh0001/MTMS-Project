@@ -39,6 +39,7 @@ public class FrontEnd {
         scanner = new Scanner(System.in);
         logger = Logger.getLogger(Client.class.getName());
         this.args = args;
+        movieTicketServiceObj = new Frontend.FrontEnd();
     }
 
     public void attachLogging(String userID) {
@@ -72,7 +73,7 @@ public class FrontEnd {
     }
 
     public void getUrlRef() {
-        movieTicketServiceObj.listenUDPResponse();
+        //movieTicketServiceObj.listenUDPResponse();
 //        movieTicketServiceObj = serviceAPI.getPort(IMovieTicket.class); //Port of Interface at which Implementation is running
 //
 //        try {
