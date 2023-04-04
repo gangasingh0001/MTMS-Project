@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7bbcc0-2498-42e0-8d79-07941ef25833" name="Changes" comment="Added Started code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Frontend/UdpRecieveFromReplicaManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Frontend/UdpSendToSequencer.java" afterDir="false" />
+    <list default="true" id="cd7bbcc0-2498-42e0-8d79-07941ef25833" name="Changes" comment="Completed the code flow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client/FrontEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/IFrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/IFrontEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/RequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/RequestBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/UdpRecieveFromReplicaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/UdpRecieveFromReplicaManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/UdpSendToSequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/UdpSendToSequencer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ClientConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ClientConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ServerConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ServerConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ServiceConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Constant/ServiceConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/ReplicaManager1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/ReplicaManager1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/ServerInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/ServerInstance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Service/MovieTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Service/MovieTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/ServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/ServerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica1/Shared/data/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Sequencer/Sequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sequencer/Sequencer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Udp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/Udp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/MessageDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/MessageDataModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/MessageResponseDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/MessageResponseDataModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/sortRmResponses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/sortRmResponses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -91,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sequencer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sequencer.Sequencer" />
+    <configuration name="ReplicaManager2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replicas.Replica2.ReplicaManager2" />
       <module name="MTBS-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sequencer.*" />
+          <option name="PATTERN" value="Replicas.Replica2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,7 +118,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReplicaManager3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replicas.Replica3.ReplicaManager3" />
+      <module name="MTBS-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Replicas.Replica3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Replicas.Replica1.ServerInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Replicas.Replica1.ServerInstance" />
       <module name="MTBS-Project" />
       <extension name="coverage">
@@ -117,26 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UdpRecieveFromReplicaManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Frontend.UdpRecieveFromReplicaManager" />
-      <module name="MTBS-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Frontend.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.UdpRecieveFromReplicaManager" />
+        <item itemvalue="Application.ReplicaManager2" />
+        <item itemvalue="Application.Replicas.Replica1.ServerInstance" />
         <item itemvalue="Application.ReplicaManager1" />
-        <item itemvalue="Application.Sequencer" />
-        <item itemvalue="Application.ServerInstance" />
+        <item itemvalue="Application.ReplicaManager3" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +166,7 @@
       <workItem from="1680289940879" duration="8414000" />
       <workItem from="1680449942649" duration="13831000" />
       <workItem from="1680546557965" duration="187000" />
-      <workItem from="1680546848846" duration="14432000" />
+      <workItem from="1680546848846" duration="31036000" />
     </task>
     <task id="LOCAL-00001" summary="Added Started code">
       <created>1680293696636</created>
@@ -168,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680309139889</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed the code flow">
+      <created>1680575072143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680575072143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,30 +208,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Started code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Started code" />
+    <MESSAGE value="Completed the code flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed the code flow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Replicas/Replica1/ReplicaManager1.java</url>
-          <line>190</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Sequencer/Sequencer.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Sequencer/Sequencer.java</url>
-          <line>166</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Frontend/UdpSendToSequencer.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="26" />
+          <line>42</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

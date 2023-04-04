@@ -1,9 +1,7 @@
 package Replicas.Replica1;
 //
-//import Frontend.IFrontEnd;
-//import Replicas.Replica1.Service.IMovieTicket;
-//import Replicas.Replica1.Shared.data.Util;
-//import Util.Constants;
+import Replicas.Replica1.Service.IMovieTicket;
+import Util.Constants;
 //
 //import javax.xml.namespace.QName;
 //import javax.xml.ws.Service;
@@ -146,17 +144,23 @@ package Replicas.Replica1;
 //    }
 //}
 
-import Util.Constants;
+import Util.MessageDataModel;
 
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
 import java.io.IOException;
 import java.net.*;
 import java.util.Enumeration;
-import java.util.List;
 
 public class ReplicaManager1 {
     private MulticastSocket socket;
     private InetAddress multicastAddress;
     private int multicastPort;
+    static IMovieTicket movieTicketServiceObj = null;
+    static URL url;
+    private static Service serviceAPI;
+    //public static ConcurrentHashMap<Integer, Message> message_list = new ConcurrentHashMap<>();
+    //public static Queue<Message> message_q = new ConcurrentLinkedQueue<Message>();
 
     public ReplicaManager1(InetAddress multicastAddress, int multicastPort) throws IOException {
         // Create a MulticastSocket for receiving requests from the Sequencer
@@ -187,22 +191,28 @@ public class ReplicaManager1 {
             System.out.println("Listening for request from Sequencer");
             socket.receive(packet);
 
+            String message = new String(packet.getData(), 0,packet.getLength());
+            String[] parts = message.split(";");
+
             // Get the data from the packet as a byte array
             byte[] data = packet.getData();
 
             // Extract the sequence number and request data from the packet
-            int sequenceNumber = extractSequenceNumber(data);
+            int sequenceNumber = extractSequenceNumber(parts);
             byte[] requestData = extractRequestData(data);
 
+            MessageDataModel msg = new MessageDataModel(parts[1],parts[3],parts[4],parts[5],parts[6],Integer.valueOf(parts[7]),Integer.valueOf(parts[0]),parts[2]);
+            requestToServers(msg);
+
             // TODO: Process the request and send a response back to the FrontEnd
-            sendResultToFrontEnd("Response From Replica 1 ", Constants.FE_IPAddress, Constants.FE_Port);
+            //sendResultToFrontEnd("Response From Replica 1 ", Constants.FE_IPAddress, Constants.FE_Port);
 
         }
     }
 
-    private int extractSequenceNumber(byte[] data) {
+    private int extractSequenceNumber(String[] data) {
         // TODO: Implement logic to extract sequence number from data
-        return 0;
+        return Integer.valueOf(data[0]);
     }
 
     private byte[] extractRequestData(byte[] data) {
@@ -212,7 +222,7 @@ public class ReplicaManager1 {
 
     public static void main(String[] args) throws IOException {
         // Set up the Replica Manager to listen for requests from the Sequencer via multicast
-        ReplicaManager1 replicaManager = new ReplicaManager1(InetAddress.getByName(Constants.RM1_IPAddress), 5001);
+        Replicas.Replica1.ReplicaManager1 replicaManager = new Replicas.Replica1.ReplicaManager1(InetAddress.getByName(Constants.RM1_IPAddress), 5001);
 
         // Start listening for incoming requests
         replicaManager.listen();
@@ -238,5 +248,63 @@ public class ReplicaManager1 {
             }
         }
 
+    }
+
+    //Send request to server
+    private static String requestToServers(MessageDataModel input) {
+        int portNumber = Replicas.Replica1.Shared.data.Util.getServerPortByCustomerID(input.customerID.substring(0, 3));
+        //movieTicketServiceObj = serviceAPI.getPort(IMovieTicket.class); //Port of Interface at which Implementation is running
+
+        try {
+            url = new URL("http://localhost:8080/"+Replicas.Replica1.Shared.data.Util.getServerFullNameByCustomerID(input.customerID)+"?wsdl");
+            QName qName = new QName("http://Service.Replica1.Replicas/", "MovieTicketService");
+            serviceAPI = Service.create(url, qName);
+            movieTicketServiceObj = serviceAPI.getPort(IMovieTicket.class); //Port of Interface at which Implementation is running
+        } catch (MalformedURLException ex) {
+            ex.getStackTrace();
+        }
+
+        if (input.customerID.substring(3, 4).equalsIgnoreCase("A")) {
+//            if (parts[0].equalsIgnoreCase("addEvent")) {
+//                String response = movieTicketServiceObj.addEvent(input.newEventID, input.newEventType, input.bookingCapacity);
+//                System.out.println(response);
+//                return response;
+//            } else if (input.Function.equalsIgnoreCase("removeEvent")) {
+//                String response = obj.removeEvent(input.newEventID, input.newEventType);
+//                System.out.println(response);
+//                return response;
+           // } else
+                if (input.invokedMethod.equalsIgnoreCase("listMovieShowsAvailability")) {
+                String response = movieTicketServiceObj.listMovieShowsAvailability(input.movieName);
+                sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                return response;
+            }
+        }
+//        else if (input.userID.substring(3, 4).equalsIgnoreCase("C")) {
+//            if (input.Function.equalsIgnoreCase("bookEvent")) {
+//                String response = obj.bookEvent(input.userID, input.newEventID, input.newEventType);
+//                System.out.println(response);
+//                return response;
+//            } else if (input.Function.equalsIgnoreCase("getBookingSchedule")) {
+//                String response = obj.getBookingSchedule(input.userID);
+//                System.out.println(response);
+//                return response;
+//            } else if (input.Function.equalsIgnoreCase("cancelEvent")) {
+//                String response = obj.cancelEvent(input.userID, input.newEventID, input.newEventType);
+//                System.out.println(response);
+//                return response;
+//            } else if (input.Function.equalsIgnoreCase("swapEvent")) {
+//                String response = obj.swapEvent(input.userID, input.newEventID, input.newEventType, input.oldEventID, input.oldEventType);
+//                System.out.println(response);
+//                return response;
+//            }
+//        }
+        return "Null response from server" + input.customerID.substring(0, 3);
+    }
+
+    public static String responseBuilderString(MessageDataModel msg, String response) {
+        return msg.sequenceNumber + ";" +
+                1 + ";" +
+                response;
     }
 }

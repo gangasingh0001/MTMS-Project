@@ -1,6 +1,6 @@
 package Replicas.Replica1;
 
-import Constant.ServerConstant;
+import Replicas.Replica1.Constant.ServerConstant;
 import Replicas.Replica1.Log.ILogging;
 import Replicas.Replica1.Log.Logging;
 import Replicas.Replica1.Shared.Database.CustomerBooking;

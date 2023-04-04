@@ -1,6 +1,6 @@
 package Replicas.Replica1.Service;
 
-import Constant.ServerConstant;
+import Replicas.Replica1.Constant.ServerConstant;
 import Replicas.Replica1.Shared.Database.ICustomerBooking;
 import Replicas.Replica1.Shared.Database.IMovies;
 import Replicas.Replica1.Shared.Entity.IResponse;

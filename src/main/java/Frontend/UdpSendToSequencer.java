@@ -16,12 +16,12 @@ public class UdpSendToSequencer {
     public UdpSendToSequencer(InetAddress sequencerAddress, int sequencerPort) {
         try {
             // Create a DatagramSocket for sending requests to the Sequencer
-            this.socket = new DatagramSocket(5020);
+            //this.socket = new DatagramSocket(5020);
 
             // Save the address and port of the Sequencer
             this.sequencerAddress = sequencerAddress;
             this.sequencerPort = sequencerPort;
-        } catch (SocketException ex) {
+        } catch (Exception ex) {
             ex.getStackTrace();
         }
     }
@@ -32,18 +32,26 @@ public class UdpSendToSequencer {
             byte[] requestData = request.getBytes();
             DatagramPacket requestPacket = new DatagramPacket(requestData, requestData.length, InetAddress.getLocalHost(), sequencerPort);
 
+//            try {
+//                // Create a DatagramSocket for sending requests to the Sequencer
+//
+//            } catch (SocketException ex) {
+//                ex.getStackTrace();
+//            }
+            socket = new DatagramSocket(5020);
             // Send the request packet to the Sequencer
             socket.send(requestPacket);
 
-            byte[] responseData = new byte[1024];
-            DatagramPacket responsePacket = new DatagramPacket(responseData, responseData.length);
-            socket.receive(responsePacket);
+            //while (true) {
+                byte[] responseData = new byte[1024];
+                DatagramPacket responsePacket = new DatagramPacket(responseData, responseData.length);
+                socket.receive(responsePacket);
 
-            // Process response
-            String response = new String(responsePacket.getData(), responsePacket.getOffset(), responsePacket.getLength());
-            System.out.println("Received sequence number from Sequencer: " + Integer.valueOf(response));
-
-            return Integer.valueOf(response);
+                // Process response
+                String response = new String(responsePacket.getData(), responsePacket.getOffset(), responsePacket.getLength());
+                System.out.println("Received sequence number from Sequencer: " + Integer.valueOf(response));
+                return Integer.valueOf(response);
+            //}
         } catch (IOException ex) {
             ex.getStackTrace();
         }

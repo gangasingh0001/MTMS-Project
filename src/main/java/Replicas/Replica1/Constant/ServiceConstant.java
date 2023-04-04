@@ -1,4 +1,4 @@
-package Constant;
+package Replicas.Replica1.Constant;
 
 import java.rmi.RemoteException;
 

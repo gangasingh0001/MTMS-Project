@@ -1,6 +1,6 @@
 package Replicas.Replica1.Shared.data;
 
-import Constant.ServerConstant;
+import Replicas.Replica1.Constant.ServerConstant;
 import com.sun.org.apache.bcel.internal.generic.ARETURN;
 
 import java.text.ParseException;

@@ -1,6 +1,6 @@
 package Replicas.Replica1.Shared.data;
 
-import Constant.ServerConstant;
+import Replicas.Replica1.Constant.ServerConstant;
 
 public class ServerInfo implements IServerInfo{
     private String serverName = null;
