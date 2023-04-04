@@ -1,7 +1,7 @@
 package Client;
 
-import Constant.ClientConstant;
-import Constant.ServerConstant;
+import Replicas.Replica1.Constant.ClientConstant;
+import Replicas.Replica1.Constant.ServerConstant;
 import Frontend.IFrontEnd;
 import Replicas.Replica1.Log.ILogging;
 import Replicas.Replica1.Log.Logging;
