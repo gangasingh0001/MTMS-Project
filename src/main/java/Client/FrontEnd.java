@@ -1,7 +1,7 @@
 package Client;
 
-import Constant.ClientConstant;
-import Constant.ServerConstant;
+import Replicas.Replica1.Constant.ClientConstant;
+import Replicas.Replica1.Constant.ServerConstant;
 import Frontend.IFrontEnd;
 import Replicas.Replica1.Log.ILogging;
 import Replicas.Replica1.Log.Logging;
@@ -62,7 +62,6 @@ public class FrontEnd {
         attachLogging(userID);
 
         this.userService.setUserID(userID.toUpperCase());
-        getUrlRef();
 
         logger.severe("CustomerID: "+ this.userService.getUserID());
         logger.severe("Server Name: "+ Util.getServerFullNameByCustomerID(this.userService.getUserID()));
@@ -70,20 +69,6 @@ public class FrontEnd {
 
         while (!logout)
             menu();
-    }
-
-    public void getUrlRef() {
-        //movieTicketServiceObj.listenUDPResponse();
-//        movieTicketServiceObj = serviceAPI.getPort(IMovieTicket.class); //Port of Interface at which Implementation is running
-//
-//        try {
-//            url = new URL("http://localhost:8080/"+Util.getServerFullNameByCustomerID(this.userService.getUserID())+"?wsdl");
-//            QName qName = new QName("http://Service.Server/", "MovieTicketService");
-//            serviceAPI = Service.create(url, qName);
-//            movieTicketServiceObj = serviceAPI.getPort(IMovieTicket.class); //Port of Interface at which Implementation is running
-//        } catch (MalformedURLException ex) {
-//            ex.getStackTrace();
-//        }
     }
 
     public void menu() {

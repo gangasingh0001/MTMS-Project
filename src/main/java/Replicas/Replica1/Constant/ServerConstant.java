@@ -1,4 +1,4 @@
-package Constant;
+package Replicas.Replica1.Constant;
 
 public class ServerConstant {
     public static final int SERVER_ATWATER_PORT = 2501;

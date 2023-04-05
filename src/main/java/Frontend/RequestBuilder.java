@@ -4,26 +4,30 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 public class RequestBuilder {
-    private String customerID = null;
-    private String movieID = null;
-    private String movieName = null;
-    private String newMovieID = null;
-    private String newMovieName = null;
+    private String customerID;
+    private String movieID;
+    private String movieName;
+    private String newMovieID;
+    private String newMovieName;
     private int bookingCapacity = 0;
     private int sequenceNumber = 0;
     private String IPAddress = null;
     private int retryCount = 1;
-    private String invokedMethod = null;
+    private String invokedMethod;
 
     public RequestBuilder(String invokedMethod, String customerID, String movieID, String movieName, String newMovieID, int bookingCapacity, String newMovieName) {
         this.bookingCapacity = bookingCapacity;
         this.invokedMethod =invokedMethod;
-        this.IPAddress =
         this.customerID = customerID;
         this.movieID = movieID;
         this.movieName = movieName;
         this.newMovieID = newMovieID;
         this.newMovieName = newMovieName;
+
+        if(getMovieID()==null) {this.movieID = "";}
+        if(getMovieName()==null) {this.movieName = "";}
+        if(getNewMovieName()==null) {this.newMovieName = "";}
+        if(getNewMovieID()==null) {this.newMovieID = "";}
     }
 
     public int getSequenceNumber() {
@@ -68,8 +72,9 @@ public class RequestBuilder {
 
     public String requestBuilderString() {
         return getSequenceNumber() + ";" +
+                getCustomerID().toUpperCase() + ";" +
                 getInvokedMethod().toUpperCase() + ";" +
-                getMovieID().toUpperCase() + ";" +
+                 getMovieID()+ ";" +
                 getMovieName().toUpperCase() + ";" +
                 getNewMovieID().toUpperCase() + ";" +
                 getNewMovieName().toUpperCase() + ";" +

@@ -1,6 +1,6 @@
 package Replicas.Replica1;
 
-import Constant.ServerConstant;
+import Replicas.Replica1.Constant.ServerConstant;
 import Replicas.Replica1.Log.ILogging;
 import Replicas.Replica1.Log.Logging;
 import Replicas.Replica1.Shared.Database.CustomerBooking;
@@ -29,13 +29,14 @@ public class ServerInstance {
                 movieService = new Movie();
                 customerBookingDb = new CustomerBooking();
                 moviesDb = new Movies();
-                moviesDb.addMovie("AVATAR", "ATWM290323", 50);
-                moviesDb.addMovieSlot("AVATAR", "ATWA210323", 50);
-                moviesDb.addMovieSlot("AVATAR", "ATWA110323", 50);
-                moviesDb.addMovieSlot("AVATAR", "ATWA230323", 50);
-                moviesDb.addMovie("AVENGERS", "ATWE190823", 100);
-                customerBookingDb.addMovieByCustomerID("ATWM1212", "ATWM290323", "AVATAR", 3);
-                customerBookingDb.addMovieByCustomerID("ATWM1212", "ATWA210323", "AVATAR", 3);
+                moviesDb.addMovie("AVATAR", "ATWM080423", 50);
+                //moviesDb.addMovieSlot("AVATAR", "ATWA210323", 50);
+                moviesDb.addMovieSlot("AVATAR", "ATWA070423", 50);
+                moviesDb.addMovieSlot("AVATAR", "ATWA060423", 50);
+                moviesDb.addMovieSlot("AVATAR", "ATWA090423", 50);
+                moviesDb.addMovie("AVENGERS", "ATWE090423", 100);
+                customerBookingDb.addMovieByCustomerID("ATWM1212", "ATWM080423", "AVATAR", 3);
+                customerBookingDb.addMovieByCustomerID("ATWM1212", "ATWA070423", "AVATAR", 3);
                 serverInfo.setServerName(ServerConstant.SERVER_ATWATER_PREFIX);
                 logging = new Logging(Util.getServerNameByServerPrefix(serverInfo.getServerName()), false, true);
                 logger = logging.attachFileHandlerToLogger(logger);

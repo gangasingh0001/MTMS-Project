@@ -12,9 +12,9 @@ public class Client {
             Movie movie = new Movie();
             FrontEnd fe = new FrontEnd(user, movie, args);
 
-            Scanner sn = new Scanner(System.in);
+            //Scanner sn = new Scanner(System.in);
             //System.out.println("Press 1 for concurrency test mode or Press 2 for application mode");
-            int option = sn.nextInt();
+            //int option = sn.nextInt();
             fe.login();
         } catch (Exception e) {
             System.err.println("Client exception: " + e.toString());

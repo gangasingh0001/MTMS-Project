@@ -1,7 +1,7 @@
 package Replicas.Replica1;
 
-import Constant.ServerConstant;
-import Constant.ServiceConstant;
+import Replicas.Replica1.Constant.ServerConstant;
+import Replicas.Replica1.Constant.ServiceConstant;
 import Replicas.Replica1.Service.MovieTicket;
 import Replicas.Replica1.Shared.Database.ICustomerBooking;
 import Replicas.Replica1.Shared.Database.IMovies;

@@ -88,9 +88,14 @@
 //}
 package Sequencer;
 import Util.Constants;
+import Util.MessageDataModel;
 
 import java.io.IOException;
 import java.net.*;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.List;
+import java.util.Objects;
 
 public class Sequencer {
         private DatagramSocket socket;
@@ -121,22 +126,83 @@ public class Sequencer {
             // Wait for an incoming packet
             socket.receive(packet);
 
+            String sentence = new String(packet.getData(), 0,packet.getLength());
+            String[] parts = sentence.split(";");
+
             // Get the data from the packet as a byte array
-            byte[] data = packet.getData();
+            //byte[] data = packet.getData();
 
             // Create a new packet with a sequence number added to the request
             int sequenceNumber = generateSequenceNumber();
-            byte[] sequencedData = addSequenceNumber(sequenceNumber, data);
+            byte[] sequencedData = addSequenceNumber(sequenceNumber, parts);
+
 
             sendSequenceToFrontEnd(packet,sequenceNumber);
 
-            DatagramPacket sequencedPacket = new DatagramPacket(sequencedData, sequencedData.length, InetAddress.getLocalHost(), multicastPort);
+            List<InetAddress> listAllBroadcastAddresses = listAllBroadcastAddresses();
+            broadcastMessageToRm(listAllBroadcastAddresses,sequencedData,multicastPort);
+            //DatagramPacket sequencedPacket = new DatagramPacket(sequencedData, sequencedData.length, InetAddress.getLocalHost(), multicastPort);
 
-            System.out.println("Sequencer sending request to RM : MulticastAddress - "+multicastAddress);
-            System.out.println("Sequencer sending request to RM : MulticastPort - "+multicastPort);
+
             // Send the sequenced packet to the Replica Manager
-            socket.send(sequencedPacket);
+            //socket.send(sequencedPacket);
             }
+        }
+
+        private void broadcastMessageToRm(List<InetAddress> listAllBroadcastAddresses, byte[] sequencedData, int multicastPort) {
+            for(InetAddress addr: listAllBroadcastAddresses) {
+                DatagramSocket socketInner;
+                try {
+                    socketInner = new DatagramSocket();
+                } catch (SocketException e) {
+                    throw new RuntimeException(e);
+                }
+                try {
+                    socketInner.setBroadcast(true);
+                } catch (SocketException e) {
+                    throw new RuntimeException(e);
+                }
+
+                System.out.println("Sequencer sending request to RM : MulticastAddress - "+multicastAddress);
+                System.out.println("Sequencer sending request to RM : MulticastPort - "+multicastPort);
+
+                DatagramPacket packet
+                        = new DatagramPacket(sequencedData, sequencedData.length, addr, multicastPort);
+                try {
+                    socketInner.send(packet);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+                socketInner.close();
+            }
+        }
+
+        private List<InetAddress> listAllBroadcastAddresses() {
+            List<InetAddress> broadcastList = new ArrayList<>();
+            Enumeration<NetworkInterface> interfaces
+                    = null;
+            try {
+                interfaces = NetworkInterface.getNetworkInterfaces();
+            } catch (SocketException e) {
+                throw new RuntimeException(e);
+            }
+            while (interfaces.hasMoreElements()) {
+                NetworkInterface networkInterface = interfaces.nextElement();
+
+                try {
+                    if (networkInterface.isLoopback() || !networkInterface.isUp()) {
+                        continue;
+                    }
+                } catch (SocketException e) {
+                    throw new RuntimeException(e);
+                }
+
+                networkInterface.getInterfaceAddresses().stream()
+                        .map(a -> a.getBroadcast())
+                        .filter(Objects::nonNull)
+                        .forEach(broadcastList::add);
+            }
+            return broadcastList;
         }
 
         private int generateSequenceNumber() {
@@ -144,9 +210,18 @@ public class Sequencer {
             return ++this.sequenceNumber;
         }
 
-        private byte[] addSequenceNumber(int sequenceNumber, byte[] data) {
+        private byte[] addSequenceNumber(int sequenceNumber, String[] data) {
             // TODO: Implement logic to add sequence number to data
-            return data;
+            String dataInString = sequenceNumber + ";" +
+                    data[1] + ";" + //customerID
+                    data[2] + ";" + //getInvokedMethod
+                    data[3] + ";" + //getMovieID
+                    data[4] + ";" + //getMovieName
+                    data[5] + ";" + //getNewMovieID
+                    data[6] + ";" + //getNewMovieName
+                    data[7]; //getBookingCapacity
+            byte[] message = dataInString.getBytes();
+            return message;
         }
 
         private void sendSequenceToFrontEnd(DatagramPacket requestPacket, int sequenceNumber) {

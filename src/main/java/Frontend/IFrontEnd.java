@@ -4,10 +4,8 @@ import javax.jws.WebMethod;
 
 public interface IFrontEnd {
     public void rmIsDown(int rmNumber);
-    //public int sendRequestToSequencer(RequestBuilder request);
     public void rmHasBug(int rmNumber);
-    public void resendRequest(int retryNumber);
-    //public void listenUDPResponse();
+    //public void resendRequest(int retryNumber);
 
     String addMovieSlots(String movieId, String movieName, int bookingCapacity) ;
 

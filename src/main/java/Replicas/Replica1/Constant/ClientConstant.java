@@ -1,4 +1,4 @@
-package Constant;
+package Replicas.Replica1.Constant;
 
 public class ClientConstant {
     public static final String BOOK_MOVIE = "Book Movie";
