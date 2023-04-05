@@ -207,16 +207,6 @@ public class ReplicaManager3 {
             byte[] requestData = extractRequestData(data);
 
             if(sequenceNumber==-1 && parts[1].equals("RM3")) { //RM has bug
-                //ProcessBuilder pb = new ProcessBuilder("bash", "/Users/gangasingh/Desktop/COMP6231/MTBS-Project/src/main/java/restartServer.sh");
-                // Start the process
-                //Process p = pb.start();
-
-                // Wait for the process to finish
-//                try {
-//                    int exitCode = p.waitFor();
-//                } catch (InterruptedException e) {
-//                    throw new RuntimeException(e);
-//                }
                 this.urlChanged = "http://Service.Server.Replicas/";
                 this.Replica_3_Port = 8083;
                 while (!messageQueue.isEmpty()) {
@@ -226,15 +216,21 @@ public class ReplicaManager3 {
 
                     requestToServers(nextMessage,false);
                 }
-            } else if(sequenceNumber!=-1){
+            } if(sequenceNumber==-2 && parts[1].equals("RM3")) { //RM has bug
+                this.urlChanged = "http://Service.Server.Replicas/";
+                this.Replica_3_Port = 8083;
+                while (!messageQueue.isEmpty()) {
+                    MessageDataModel nextMessage = messageQueue.poll();
+                    System.out.println("Invoking method to be operated on new Server");
+                    System.out.println(nextMessage.invokedMethod);
+
+                    requestToServers(nextMessage,false);
+                }
+            } else if(sequenceNumber!=-1 && sequenceNumber!=-2){
                 MessageDataModel msg = new MessageDataModel(parts[1], parts[3], parts[4], parts[5], parts[6], Integer.valueOf(parts[7]), Integer.valueOf(parts[0]), parts[2]);
                 messageQueue.add(msg);
                 requestToServers(msg,true);
             }
-
-            // TODO: Process the request and send a response back to the FrontEnd
-            //sendResultToFrontEnd("Response From Replica 1 ", Constants.FE_IPAddress, Constants.FE_Port);
-
         }
     }
 

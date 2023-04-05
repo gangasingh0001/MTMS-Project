@@ -55,6 +55,20 @@ public class FrontEnd implements IFrontEnd{
     }
 
     @Override
+    public void rmIsDown(int rmNumber) {
+        List<InetAddress> listAllBroadcastAddresses = listAllBroadcastAddresses();
+        String rm = "";
+        if(rmNumber==1) rm="RM1";
+        if(rmNumber==2) rm="RM2";
+        if(rmNumber==3) rm="RM3";
+        String dataInString = -2 + ";" +
+                rm;// Rm
+
+        byte[] message = dataInString.getBytes();
+        broadcastMessageToRm(listAllBroadcastAddresses,message,Constants.RM2_Port);
+    }
+
+    @Override
     public void rmHasBug(int rmNumber) {
         List<InetAddress> listAllBroadcastAddresses = listAllBroadcastAddresses();
         String rm = "";
@@ -166,25 +180,36 @@ public class FrontEnd implements IFrontEnd{
         for(int i=0;i<filteredList.size();i++) {
             udpRecieveFromReplicaManager.removeProcessedResponses(filteredList.get(i));
         }
-
+        filteredList = sortRmResponses.sortRm(filteredList);
         // check if RM is down
         if(filteredList.size()<3) {
-            System.out.println("System is down");
-            return "System is down";
-        } else {
-            filteredList = sortRmResponses.sortRm(filteredList);
-            if(filteredList.get(0).response.equals(filteredList.get(1).response)) {
+            if(filteredList.get(0).replicaManager==1) {
+                if(filteredList.get(1).replicaManager==2) {
+                    rmIsDown(3);
+                    return "Replica: "+3+" is down. Informing RM's to counter the downtime and attach to new server";
+                }
+                if(filteredList.get(1).replicaManager==3) {
+                    rmIsDown(2);
+                    return "Replica: "+2+" is down .Informing RM's to counter the downtime and attach to new server";
+                }
+            } else if(filteredList.get(0).replicaManager==2) {
+                if(filteredList.get(1).replicaManager==3) {
+                    rmIsDown(1);
+                    return "Replica: "+1+" is down. Informing RM's to counter the downtime and attach to new server";
+                }
+            }
+        } else if(filteredList.get(0).response.equals(filteredList.get(1).response)) {
                 if(filteredList.get(1).response.equals(filteredList.get(2).response)) {
                     return filteredList.get(0).response;
                 } else {
                     rmHasBug(3);
                     // Rm 3 has bug
-//                    if(bugCount==1) {
-//                        rmHasBug(3);
-//                        bugCount = 3;
-//                    }
-//                    else
-//                        bugCount--;
+                    if(bugCount==1) {
+                        rmHasBug(3);
+                        bugCount = 3;
+                    }
+                    else
+                        bugCount--;
                     System.out.println("Bug in RM 3");
                     return filteredList.get(1).response;
                 }
@@ -210,7 +235,7 @@ public class FrontEnd implements IFrontEnd{
                 System.out.println("Bug in RM 2");
                 return filteredList.get(1).response;
             }
-        }
+        return "All servers are down or packet is lost";
     }
 
     private void broadcastMessageToRm(List<InetAddress> listAllBroadcastAddresses, byte[] sequencedData, int multicastPort) {
