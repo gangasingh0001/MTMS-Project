@@ -19,6 +19,8 @@ import java.util.concurrent.TimeUnit;
 public class FrontEnd implements IFrontEnd{
     private long startTime;
     private CountDownLatch latch;
+
+    private int bugCount = 3;
     private static long DYNAMIC_TIMEOUT = 10000;
     private final List<String> responses = new ArrayList<>();
     private IMovie movieService = null;
@@ -175,19 +177,36 @@ public class FrontEnd implements IFrontEnd{
                 if(filteredList.get(1).response.equals(filteredList.get(2).response)) {
                     return filteredList.get(0).response;
                 } else {
-                    // Rm 3 has bug
                     rmHasBug(3);
+                    // Rm 3 has bug
+//                    if(bugCount==1) {
+//                        rmHasBug(3);
+//                        bugCount = 3;
+//                    }
+//                    else
+//                        bugCount--;
                     System.out.println("Bug in RM 3");
                     return filteredList.get(1).response;
                 }
             } else if(filteredList.get(0).response.equals(filteredList.get(2).response)){
                 // RM 1 has bug
-                rmHasBug(1);
+                if(bugCount==1) {
+                    rmHasBug(1);
+                    bugCount = 3;
+                }
+                else {
+                    bugCount--;
+                }
                 System.out.println("Bug in RM 1");
                 return filteredList.get(0).response;
             } else {
                 // RM 2 has bug
-                rmHasBug(2);
+                if(bugCount==1) {
+                    rmHasBug(2);
+                    bugCount = 3;
+                }
+                else
+                    bugCount--;
                 System.out.println("Bug in RM 2");
                 return filteredList.get(1).response;
             }

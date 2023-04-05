@@ -1,0 +1,690 @@
+02/04/2023 11:25:40: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@78123e82
+02/04/2023 11:25:40: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+02/04/2023 11:25:40: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+02/04/2023 11:25:40: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+02/04/2023 11:25:40: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+02/04/2023 11:42:59: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+02/04/2023 11:42:59: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+02/04/2023 11:42:59: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+02/04/2023 11:42:59: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+02/04/2023 11:42:59: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 11:00:13: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 11:00:13: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 11:00:13: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:00:13: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 11:00:13: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 11:08:33: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 11:08:33: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 11:08:33: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 11:08:33: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:08:33: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 11:12:22: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 11:12:22: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 11:12:22: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:12:22: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 11:12:22: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 11:23:54: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 11:23:54: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 11:23:54: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:23:54: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 11:23:54: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 11:26:38: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:26:38: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:07:32: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 05:07:32: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 05:07:32: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 05:07:32: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:07:32: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 05:12:29: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 05:12:29: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:13:43: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 05:13:43: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:14:39: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 05:14:39: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:20:22: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 05:20:22: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:21:48: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 05:21:48: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:22:30: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 05:22:30: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:25:15: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 05:25:15: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:55:41: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 05:55:41: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 05:55:41: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 05:55:41: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:55:41: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 05:56:27: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 05:56:27: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 05:56:27: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 05:56:27: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 05:56:27: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 06:02:57: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 06:02:57: 20::Replicas.Replica3.Server::requestlistener::Listener Datagram port : 2509
+04/04/2023 06:02:57: 20::Replicas.Replica3.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:02:57: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 06:02:57: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 06:37:55: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 06:37:55: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 06:37:55: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 06:37:55: 20::Replicas.Replica3.Server::requestlistener::Listener Datagram port : 2509
+04/04/2023 06:37:55: 20::Replicas.Replica3.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:39:48: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 06:39:48: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 06:39:48: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 06:39:48: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:39:48: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 06:40:06: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:40:06: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:40:06: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:40:06: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:40:06: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:40:06: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:44:28: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:44:28: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:44:28: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:44:28: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:44:28: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:44:28: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:50:13: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:50:13: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:50:13: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:50:13: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:50:13: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:50:13: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:58:28: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:58:28: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:58:28: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:58:28: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 06:58:28: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 06:58:28: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:25:02: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:25:02: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:25:02: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:25:02: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:25:02: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:25:02: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:25:17: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:25:17: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:25:17: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:25:17: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:25:17: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:25:17: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:43:25: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:43:25: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:43:25: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:43:25: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:43:25: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:43:25: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:46:42: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:46:42: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:46:42: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:46:42: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:46:42: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:46:42: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:47:34: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:47:34: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:47:34: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:47:34: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:48:14: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:48:14: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:48:14: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:48:14: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:50:29: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:50:29: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:50:29: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:50:29: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:50:54: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:50:54: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:50:54: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:50:54: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:51:34: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:51:34: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:51:34: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:51:34: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:51:58: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:51:58: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:51:58: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:51:58: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:52:33: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:52:33: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 07:52:33: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 07:52:33: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 09:52:41: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 09:52:41: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 09:52:41: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 09:52:41: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 09:52:41: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 09:55:56: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 09:55:56: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 09:55:56: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 09:55:56: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 09:55:56: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 09:59:52: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 09:59:52: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 09:59:52: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 09:59:52: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 09:59:52: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 10:02:19: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:02:19: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:02:19: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:02:19: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:09:00: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 10:09:00: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 10:09:00: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 10:09:00: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:09:00: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 10:12:34: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:12:34: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:12:34: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:12:34: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:12:34: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:12:34: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:13:37: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:13:37: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:13:37: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:13:37: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:13:37: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:13:37: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:15:53: 20::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWM080423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+04/04/2023 10:15:53: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:15:53: 20::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWA070423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+04/04/2023 10:15:53: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:15:53: 20::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWM080423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+04/04/2023 10:15:53: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:16:59: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:16:59: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:16:59: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:16:59: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:16:59: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:16:59: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:21:01: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:21:01: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:21:01: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:21:01: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:21:27: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:21:27: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:21:27: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:21:27: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:22:05: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:22:05: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:22:05: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:22:05: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:22:15: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:22:15: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:22:15: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:22:15: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:22:15: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:22:15: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:23:59: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:23:59: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:23:59: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:23:59: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:23:59: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:23:59: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:41:26: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:41:26: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:41:26: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:41:26: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 10:41:26: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 10:41:26: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:11:35: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 11:11:35: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 11:11:35: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 11:11:35: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:11:35: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 11:23:19: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:23:19: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:23:19: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:23:19: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:23:19: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:23:19: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:23:47: 20::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWM080423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+04/04/2023 11:23:47: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:23:47: 20::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWA070423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+04/04/2023 11:23:47: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:23:47: 20::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWM080423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+04/04/2023 11:23:47: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:24:13: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:24:13: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:24:13: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:24:13: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:24:13: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:24:13: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:29:02: 20::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWM080423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+04/04/2023 11:29:02: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:29:03: 20::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWM080423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+04/04/2023 11:29:03: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:29:13: 20::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWA070423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+04/04/2023 11:29:13: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:29:30: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:29:30: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:29:30: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:29:30: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:29:30: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:29:30: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:31:22: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:31:22: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:31:22: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:31:22: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:32:56: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:32:56: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:32:56: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:32:56: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:33:46: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:33:46: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:33:46: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:33:46: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:35:55: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:35:55: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:35:55: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:35:55: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:38:48: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 11:38:48: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+04/04/2023 11:38:48: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:38:48: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 11:38:48: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 11:50:08: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 11:50:08: 20::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2506
+04/04/2023 11:50:08: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:50:08: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 11:50:08: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 11:52:43: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 11:52:43: 20::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2506
+04/04/2023 11:52:43: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:52:43: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 11:52:43: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 11:53:05: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+04/04/2023 11:53:05: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+04/04/2023 11:53:05: 20::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2506
+04/04/2023 11:53:05: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:53:05: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+04/04/2023 11:56:13: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:56:13: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:57:46: 20::Replicas.Replica2.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWM080423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+04/04/2023 11:57:46: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+04/04/2023 11:58:23: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+04/04/2023 11:58:23: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:07:27: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 12:07:27: 20::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2506
+05/04/2023 12:07:27: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:07:27: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 12:07:27: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 12:08:17: 20::Replicas.Replica2.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWM080423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+05/04/2023 12:08:17: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:08:29: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 12:08:29: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:11:22: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 12:11:22: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:12:21: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 12:12:21: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:13:07: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 12:13:07: 20::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2506
+05/04/2023 12:13:07: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:13:07: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 12:13:07: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 12:14:05: 20::Replicas.Replica2.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWM080423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: OUTE210323 at Theater: OUTREMONT
+05/04/2023 12:14:05: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:14:27: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 12:14:27: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:17:47: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 12:17:47: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:18:13: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 12:18:13: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:20:35: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 12:20:35: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 12:21:13: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 12:21:13: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:31:26: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 03:31:26: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 03:31:26: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+05/04/2023 03:31:26: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:31:26: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 03:34:47: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 03:34:47: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 03:34:47: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 03:34:47: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+05/04/2023 03:34:47: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:35:48: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:35:48: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:36:05: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:36:05: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:39:48: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 03:39:48: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+05/04/2023 03:39:48: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:39:48: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 03:39:48: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 03:40:55: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:40:55: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:41:09: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:41:09: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:41:27: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:41:27: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:41:43: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:41:43: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:45:18: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:45:18: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:46:55: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 03:46:55: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 03:46:55: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 03:46:55: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+05/04/2023 03:46:55: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:49:31: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 03:49:31: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+05/04/2023 03:49:31: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:49:31: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 03:49:31: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 03:49:59: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 03:49:59: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+05/04/2023 03:49:59: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:49:59: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 03:49:59: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 03:51:11: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:51:11: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:51:27: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:51:27: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:51:40: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:51:40: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:52:30: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:52:30: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:53:17: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:53:17: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:53:54: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:53:54: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:57:20: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 03:57:20: 20::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2503
+05/04/2023 03:57:20: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:57:20: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 03:57:20: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 03:58:03: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:58:03: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:58:15: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:58:15: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:58:28: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:58:28: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 03:58:41: 20::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 03:58:41: 20::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 04:28:16: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 04:28:16: 20::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2506
+05/04/2023 04:28:16: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 04:28:16: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 04:28:16: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 04:29:47: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 04:29:47: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 05:08:04: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 05:08:04: 20::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2506
+05/04/2023 05:08:04: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 05:08:04: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 05:08:04: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 05:08:33: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 05:08:33: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 05:09:52: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 05:09:52: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 05:12:35: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 05:12:35: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 05:20:02: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 05:20:02: 20::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2506
+05/04/2023 05:20:02: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 05:20:02: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 05:20:02: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 05:20:58: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 05:20:58: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 05:21:54: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 05:21:54: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 05:25:43: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@32b260fa
+05/04/2023 05:25:43: 20::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2506
+05/04/2023 05:25:43: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 05:25:43: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: OUTREMONT
+05/04/2023 05:25:43: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 05:26:40: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 05:26:40: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT
+05/04/2023 05:26:56: 20::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023, 
+
+05/04/2023 05:26:56: 20::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server OUTREMONT

@@ -221,12 +221,15 @@ public class ReplicaManager3 {
                 this.Replica_3_Port = 8083;
                 while (!messageQueue.isEmpty()) {
                     MessageDataModel nextMessage = messageQueue.poll();
-                    requestToServers(nextMessage);
+                    System.out.println("Invoking method to be operated on new Server");
+                    System.out.println(nextMessage.invokedMethod);
+
+                    requestToServers(nextMessage,false);
                 }
             } else if(sequenceNumber!=-1){
                 MessageDataModel msg = new MessageDataModel(parts[1], parts[3], parts[4], parts[5], parts[6], Integer.valueOf(parts[7]), Integer.valueOf(parts[0]), parts[2]);
                 messageQueue.add(msg);
-                requestToServers(msg);
+                requestToServers(msg,true);
             }
 
             // TODO: Process the request and send a response back to the FrontEnd
@@ -276,7 +279,7 @@ public class ReplicaManager3 {
     }
 
     //Send request to server
-    private static void requestToServers(MessageDataModel input) {
+    private static void requestToServers(MessageDataModel input, boolean respondToFrontend) {
         int portNumber = Replicas.Replica1.Shared.data.Util.getServerPortByCustomerID(input.customerID.substring(0, 3));
         //movieTicketServiceObj = serviceAPI.getPort(IMovieTicket.class); //Port of Interface at which Implementation is running
 
@@ -295,7 +298,7 @@ public class ReplicaManager3 {
             if (input.customerID.substring(3, 4).equalsIgnoreCase("A")) {
                 if (input.invokedMethod.equalsIgnoreCase("addMovieSlots")) {
                     String response = movieTicketServiceObj.addMovieSlots(input.movieID, input.movieName, input.bookingCapacity);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 } else if (input.invokedMethod.equalsIgnoreCase("removeMovieSlots")) {
 
@@ -307,31 +310,31 @@ public class ReplicaManager3 {
 
 
                     String response = movieTicketServiceObj.removeMovieSlots(input.movieID, input.movieName);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 } else
                 if (input.invokedMethod.equalsIgnoreCase("listMovieShowsAvailability")) {
                     String response = movieTicketServiceObj.listMovieShowsAvailability(input.movieName);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 }
             }
             else if (input.customerID.substring(3, 4).equalsIgnoreCase("M")) {
                 if (input.invokedMethod.equalsIgnoreCase("bookMovieTickets")) {
                     String response = movieTicketServiceObj.bookMovieTickets(input.customerID, input.movieID, input.movieName,input.bookingCapacity);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 } else if (input.invokedMethod.equalsIgnoreCase("getBookingSchedule")) {
                     String response = movieTicketServiceObj.getBookingSchedule(input.customerID);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 } else if (input.invokedMethod.equalsIgnoreCase("cancelMovieTickets")) {
                     String response = movieTicketServiceObj.cancelMovieTickets(input.customerID, input.movieID, input.movieName,input.bookingCapacity);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 } else if (input.invokedMethod.equalsIgnoreCase("exchangeTicket")) {
                     String response = movieTicketServiceObj.exchangeTicket(input.customerID, input.movieID, input.movieName, input.newMovieID, input.newMovieName);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 }
             }
@@ -350,43 +353,45 @@ public class ReplicaManager3 {
             if (input.customerID.substring(3, 4).equalsIgnoreCase("A")) {
                 if (input.invokedMethod.equalsIgnoreCase("addMovieSlots")) {
                     String response = movieTicketServiceObj.addMovieSlots(input.movieID, input.movieName, input.bookingCapacity);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 } else if (input.invokedMethod.equalsIgnoreCase("removeMovieSlots")) {
 
                 /*
                 Introduced Software bug at particular movieID
                  */
-                    if(input.movieID.equals("ATWM080423")) input.movieID="ATWA070423";
+                    String dummyMovieId;
+                    if(input.movieID.equals("ATWA060423")) dummyMovieId="ATWA090423";
+                    else dummyMovieId = input.movieID;
 
 
 
-                    String response = movieTicketServiceObj.removeMovieSlots(input.movieID, input.movieName);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    String response = movieTicketServiceObj.removeMovieSlots(dummyMovieId, input.movieName);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 } else
                 if (input.invokedMethod.equalsIgnoreCase("listMovieShowsAvailability")) {
                     String response = movieTicketServiceObj.listMovieShowsAvailability(input.movieName);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 }
             }
             else if (input.customerID.substring(3, 4).equalsIgnoreCase("M")) {
                 if (input.invokedMethod.equalsIgnoreCase("bookMovieTickets")) {
                     String response = movieTicketServiceObj.bookMovieTickets(input.customerID, input.movieID, input.movieName,input.bookingCapacity);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 } else if (input.invokedMethod.equalsIgnoreCase("getBookingSchedule")) {
                     String response = movieTicketServiceObj.getBookingSchedule(input.customerID);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 } else if (input.invokedMethod.equalsIgnoreCase("cancelMovieTickets")) {
                     String response = movieTicketServiceObj.cancelMovieTickets(input.customerID, input.movieID, input.movieName,input.bookingCapacity);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 } else if (input.invokedMethod.equalsIgnoreCase("exchangeTicket")) {
                     String response = movieTicketServiceObj.exchangeTicket(input.customerID, input.movieID, input.movieName, input.newMovieID, input.newMovieName);
-                    sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
+                    if(respondToFrontend) sendResultToFrontEnd(responseBuilderString(input,response), Constants.FE_IPAddress, Constants.FE_Port);
                     //return response;
                 }
             }

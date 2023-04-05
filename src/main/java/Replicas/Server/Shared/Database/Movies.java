@@ -1,6 +1,6 @@
 package Replicas.Server.Shared.Database;
 
-import Replicas.Replica1.Shared.data.Util;
+import Replicas.Server.Shared.data.Util;
 
 import java.util.List;
 import java.util.Map;

@@ -1,35 +1,30 @@
-#!/bin/bash
+##!/bin/bash
+#
+## Set the path to the Java executable
+#export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
 
-# Kill the Java process running on port 8080
-echo "Stopping Java server..."
-kill $(lsof -t -i :8082)
+# Start the first program in debug mode in a new terminal window
+#gnome-terminal --tab --title="Program 1" --working-directory="" --command="bash -c 'export JAVA_OPTS=\"-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005\"; mvn spring-boot:run'"
 
-# Wait for the server to stop
-while lsof -i :8082 >/dev/null; do
-    sleep 1
-done
+# shellcheck disable=SC1128
+!/bin/bash
 
-# Start the Java server
-echo "Starting Java server..."
+# set the path to your java program and debug port
+program_path="/Users/gangasingh/Desktop/COMP6231/MTBS-Project/src/main/java/Replicas/Server"
+debug_port="5005"
 
-#!/bin/bash
+# open multiple terminal windows and run the program in debug mode
+osascript <<END_SCRIPT
+tell application "Terminal"
+    do script "cd \"$program_path\"; export JAVA_TOOL_OPTIONS=\"-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=$debug_port\"; java ServerInstance"
+end tell
+END_SCRIPT
 
-# Set the source directory to compile
-cd ..
-SOURCE_DIR="./java"
+#osascript <<END_SCRIPT
+#tell application "Terminal"
+#    do script "cd \"$program_path\"; export JAVA_TOOL_OPTIONS=\"-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=$debug_port\"; mvn clean compile exec:java"
+#end tell
+#END_SCRIPT
 
-# Find all the .java files in the source directory and its subdirectories
-JAVA_FILES=$(find "$SOURCE_DIR" -name "*.java")
-
-# Compile all the .java files using javac
-javac $JAVA_FILES
-
-# If the compilation was successful, print a success message
-if [ $? -eq 0 ]; then
-    echo "Compilation successful!"
-else
-    echo "Compilation failed."
-fi
-
-
+# add more terminal windows as needed
 
