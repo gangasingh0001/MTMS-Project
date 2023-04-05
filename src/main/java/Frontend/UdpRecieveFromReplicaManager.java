@@ -1,6 +1,5 @@
 package Frontend;
 
-import Util.Constants;
 import Util.MessageResponseDataModel;
 
 import java.io.IOException;
@@ -46,8 +45,6 @@ public class UdpRecieveFromReplicaManager {
             // Convert the request data to a string
             String response = new String(packet.getData(), 0, packet.getLength());
             String[] parts = response.split(";");
-            // Process the request (in this example, just print it to the console)
-            //System.out.println("Received request: " + response);
 
             MessageResponseDataModel responseMsg = new MessageResponseDataModel(parts[2],Integer.parseInt(parts[0]),Integer.parseInt(parts[1]));
             this.responses.add(responseMsg);
@@ -58,12 +55,8 @@ public class UdpRecieveFromReplicaManager {
         return this.responses;
     }
 
-    public static void main(String[] args) throws IOException {
-        // Set up the UDPServer to listen for requests on port 5000
-//        UdpRecieveFromReplicaManager server = new UdpRecieveFromReplicaManager(Constants.FE_Port);
-//
-//        // Start listening for requests
-//        server.listen();
+    public void removeProcessedResponses(MessageResponseDataModel ele) {
+        this.responses.remove(ele);
     }
 
 }

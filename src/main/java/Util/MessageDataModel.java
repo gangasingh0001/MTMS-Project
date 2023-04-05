@@ -1,6 +1,6 @@
 package Util;
 
-public class MessageDataModel {
+public class MessageDataModel implements Comparable<MessageDataModel>{
     public String customerID = null;
     public String movieID = null;
     public String movieName = null;
@@ -19,5 +19,10 @@ public class MessageDataModel {
         this.newMovieID = newMovieID;
         this.newMovieName = newMovieName;
         this.sequenceNumber = sequenceNumber;
+    }
+
+    @Override
+    public int compareTo(MessageDataModel o) {
+        return Integer.compare(this.sequenceNumber, o.sequenceNumber);
     }
 }

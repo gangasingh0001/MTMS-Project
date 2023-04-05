@@ -1,6 +1,6 @@
 package Replicas.Replica2.Shared.Database;
 
-import Replicas.Replica1.Shared.data.MovieState;
+import Replicas.Replica2.Shared.data.MovieState;
 
 import java.text.ParseException;
 import java.util.List;

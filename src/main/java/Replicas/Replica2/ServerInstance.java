@@ -1,13 +1,13 @@
 package Replicas.Replica2;
 
 import Replicas.Replica2.Constant.ServerConstant;
-import Replicas.Replica1.Log.ILogging;
-import Replicas.Replica1.Log.Logging;
-import Replicas.Replica1.Shared.Database.CustomerBooking;
-import Replicas.Replica1.Shared.Database.ICustomerBooking;
-import Replicas.Replica1.Shared.Database.IMovies;
-import Replicas.Replica1.Shared.Database.Movies;
-import Replicas.Replica1.Shared.data.*;
+import Replicas.Replica2.Log.ILogging;
+import Replicas.Replica2.Log.Logging;
+import Replicas.Replica2.Shared.Database.CustomerBooking;
+import Replicas.Replica2.Shared.Database.ICustomerBooking;
+import Replicas.Replica2.Shared.Database.IMovies;
+import Replicas.Replica2.Shared.Database.Movies;
+import Replicas.Replica2.Shared.data.*;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -29,13 +29,14 @@ public class ServerInstance {
                 movieService = new Movie();
                 customerBookingDb = new CustomerBooking();
                 moviesDb = new Movies();
-                moviesDb.addMovie("AVATAR", "ATWM290323", 50);
-                moviesDb.addMovieSlot("AVATAR", "ATWA210323", 50);
-                moviesDb.addMovieSlot("AVATAR", "ATWA110323", 50);
-                moviesDb.addMovieSlot("AVATAR", "ATWA230323", 50);
-                moviesDb.addMovie("AVENGERS", "ATWE190823", 100);
-                customerBookingDb.addMovieByCustomerID("ATWM1212", "ATWM290323", "AVATAR", 3);
-                customerBookingDb.addMovieByCustomerID("ATWM1212", "ATWA210323", "AVATAR", 3);
+                moviesDb.addMovie("AVATAR", "ATWM080423", 50);
+                //moviesDb.addMovieSlot("AVATAR", "ATWA210323", 50);
+                moviesDb.addMovieSlot("AVATAR", "ATWA070423", 50);
+                moviesDb.addMovieSlot("AVATAR", "ATWA060423", 50);
+                moviesDb.addMovieSlot("AVATAR", "ATWA090423", 50);
+                moviesDb.addMovie("AVENGERS", "ATWE090423", 100);
+                customerBookingDb.addMovieByCustomerID("ATWM1212", "ATWM080423", "AVATAR", 3);
+                customerBookingDb.addMovieByCustomerID("ATWM1212", "ATWA070423", "AVATAR", 3);
                 serverInfo.setServerName(ServerConstant.SERVER_ATWATER_PREFIX);
                 logging = new Logging(Util.getServerNameByServerPrefix(serverInfo.getServerName()), false, true);
                 logger = logging.attachFileHandlerToLogger(logger);

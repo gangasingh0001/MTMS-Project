@@ -1,14 +1,13 @@
 package Replicas.Replica3.Shared.Database;
 
-import Replicas.Replica1.Shared.Entity.IResponse;
-import Replicas.Replica1.Shared.Entity.Response;
-import Replicas.Replica1.Shared.data.MovieState;
+import Replicas.Replica3.Shared.Entity.IResponse;
+import Replicas.Replica3.Shared.Entity.Response;
+import Replicas.Replica3.Shared.data.MovieState;
 
 import java.util.*;
 
-import Replicas.Replica1.Shared.data.Util;
+import Replicas.Replica3.Shared.data.Util;
 
-import java.text.ParseException;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class CustomerBooking implements ICustomerBooking{
@@ -43,7 +42,7 @@ public class CustomerBooking implements ICustomerBooking{
         return true;
     }
 
-    public Map<String,MovieState> getTicketsBookedByCustomerID(String customerID) {
+    public Map<String, MovieState> getTicketsBookedByCustomerID(String customerID) {
         return this.customerBooking.get(customerID);
     }
 

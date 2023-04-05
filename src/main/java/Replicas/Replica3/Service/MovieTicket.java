@@ -1,11 +1,11 @@
 package Replicas.Replica3.Service;
 
 import Replicas.Replica3.Constant.ServerConstant;
-import Replicas.Replica1.Shared.Database.ICustomerBooking;
-import Replicas.Replica1.Shared.Database.IMovies;
-import Replicas.Replica1.Shared.Entity.IResponse;
-import Replicas.Replica1.Shared.Entity.Response;
-import Replicas.Replica1.Shared.data.*;
+import Replicas.Replica3.Shared.Database.ICustomerBooking;
+import Replicas.Replica3.Shared.Database.IMovies;
+import Replicas.Replica3.Shared.Entity.IResponse;
+import Replicas.Replica3.Shared.Entity.Response;
+import Replicas.Replica3.Shared.data.*;
 
 import javax.jws.WebService;
 import java.text.ParseException;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 
-@WebService(endpointInterface = "Replicas.Replica1.Service.IMovieTicket")
+@WebService(endpointInterface = "Replicas.Replica3.Service.IMovieTicket")
 public class MovieTicket implements IMovieTicket {
     private final IServerInfo serverInfo;
     private final IUdp udpService;

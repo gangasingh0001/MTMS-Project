@@ -1,12 +1,9 @@
 package Frontend;
 
-import Util.Constants;
-
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.SocketException;
 
 public class UdpSendToSequencer {
     private DatagramSocket socket;
@@ -16,7 +13,6 @@ public class UdpSendToSequencer {
     public UdpSendToSequencer(InetAddress sequencerAddress, int sequencerPort) {
         try {
             // Create a DatagramSocket for sending requests to the Sequencer
-            //this.socket = new DatagramSocket(5020);
             this.socket = new DatagramSocket(5020);
 
             // Save the address and port of the Sequencer
@@ -51,13 +47,5 @@ public class UdpSendToSequencer {
         }
         return 0;
     }
-
-//    public static void main(String[] args) throws IOException {
-//         //Set up the Frontend to send requests to the Sequencer at IP address 192.168.1.100, port 5000
-//        UdpSendToSequencer frontend = new UdpSendToSequencer(InetAddress.getByName(Constants.Sequencer_IPAddress), Constants.Sequencer_Port);
-//
-//        // Send a request to the Sequencer
-//        frontend.sendRequest("hello world");
-//    }
 }
 

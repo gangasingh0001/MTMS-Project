@@ -2,12 +2,12 @@ package Replicas.Replica2;
 
 import Replicas.Replica2.Constant.ServerConstant;
 import Replicas.Replica2.Constant.ServiceConstant;
-import Replicas.Replica1.Service.MovieTicket;
-import Replicas.Replica1.Shared.Database.ICustomerBooking;
-import Replicas.Replica1.Shared.Database.IMovies;
-import Replicas.Replica1.Shared.data.IMovie;
-import Replicas.Replica1.Shared.data.IServerInfo;
-import Replicas.Replica1.Shared.data.IUdp;
+import Replicas.Replica2.Service.MovieTicket;
+import Replicas.Replica2.Shared.Database.ICustomerBooking;
+import Replicas.Replica2.Shared.Database.IMovies;
+import Replicas.Replica2.Shared.data.IMovie;
+import Replicas.Replica2.Shared.data.IServerInfo;
+import Replicas.Replica2.Shared.data.IUdp;
 
 import javax.xml.ws.Endpoint;
 import java.io.IOException;
