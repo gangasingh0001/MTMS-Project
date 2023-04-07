@@ -4,14 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7bbcc0-2498-42e0-8d79-07941ef25833" name="Changes" comment="Modified code">
+    <list default="true" id="cd7bbcc0-2498-42e0-8d79-07941ef25833" name="Changes" comment="Added crash failure code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Client/ATWA1212.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Client/ATWA1212.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Client/ATWA1212.log.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/ATWATER.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/ATWATER.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.1.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/ATWATER.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.2.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/ATWATER.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.3.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/OUTREMONT.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.1.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.2.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.3.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/VERDUN.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/VERDUN.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.1.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/VERDUN.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.2.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/VERDUN.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.3.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client/FrontEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica2/Shared/Database/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica2/Shared/Database/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/IFrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/IFrontEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica3/ReplicaManager3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica3/ReplicaManager3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica3/Shared/Database/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica3/Shared/Database/Movies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Server/Shared/Database/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Server/Shared/Database/Movies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restartServer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restartServer.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +92,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Sequencer">
-    <configuration name="ReplicaManager3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replicas.Replica3.ReplicaManager3" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.Client" />
       <module name="MTBS-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Replicas.Replica3.*" />
+          <option name="PATTERN" value="Client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Replicas.Replica3.ServerInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replicas.Replica3.ServerInstance" />
+    <configuration name="ReplicaManager1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replicas.Replica1.ReplicaManager1" />
       <module name="MTBS-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Replicas.Replica3.*" />
+          <option name="PATTERN" value="Replicas.Replica1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Replicas.Server.ServerInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replicas.Server.ServerInstance" />
+    <configuration name="ReplicaManager2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replicas.Replica2.ReplicaManager2" />
       <module name="MTBS-Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Replicas.Server.*" />
+          <option name="PATTERN" value="Replicas.Replica2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,20 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sequencer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sequencer.Sequencer" />
-      <module name="MTBS-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sequencer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Replicas.Replica2.ServerInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Replicas.Replica2.ServerInstance" />
       <module name="MTBS-Project" />
       <extension name="coverage">
@@ -134,13 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replicas.Replica1.ServerInstance" />
+      <module name="MTBS-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Replicas.Replica1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Replicas.Replica2.ServerInstance" />
+        <item itemvalue="Application.ReplicaManager2" />
         <item itemvalue="Application.ServerInstance" />
-        <item itemvalue="Application.ReplicaManager3" />
-        <item itemvalue="Application.Sequencer" />
-        <item itemvalue="Application.Replicas.Replica3.ServerInstance" />
-        <item itemvalue="Application.Replicas.Server.ServerInstance" />
+        <item itemvalue="Application.ReplicaManager1" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +181,10 @@
       <workItem from="1680449942649" duration="13831000" />
       <workItem from="1680546557965" duration="187000" />
       <workItem from="1680546848846" duration="48003000" />
-      <workItem from="1680722269450" duration="5222000" />
+      <workItem from="1680722269450" duration="9286000" />
+      <workItem from="1680737262406" duration="1487000" />
+      <workItem from="1680826234013" duration="1826000" />
+      <workItem from="1680839865449" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="Added Started code">
       <created>1680293696636</created>
@@ -208,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680709373781</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added crash failure code">
+      <created>1680734915105</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680734915105</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,33 +266,8 @@
     <MESSAGE value="Fixed Sequencer" />
     <MESSAGE value="Added Server" />
     <MESSAGE value="Modified code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified code" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Replicas/Server/Service/MovieTicket.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Replicas/Server/Service/MovieTicket.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Replicas/Server/Service/MovieTicket.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Replicas/Server/Service/MovieTicket.java</url>
-          <line>145</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added crash failure code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added crash failure code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
