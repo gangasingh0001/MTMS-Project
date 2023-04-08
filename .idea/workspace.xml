@@ -4,38 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7bbcc0-2498-42e0-8d79-07941ef25833" name="Changes" comment="Added crash failure code">
+    <list default="true" id="cd7bbcc0-2498-42e0-8d79-07941ef25833" name="Changes" comment="Added Http in client and Frontend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Client/ATWA1212.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Client/ATWA1212.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Client/ATWA1212.log.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/ATWATER.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/ATWATER.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.1.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/ATWATER.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.2.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/ATWATER.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.3.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/ATWATER.log.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/OUTREMONT.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.1.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.2.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.3.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/OUTREMONT.log.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/VERDUN.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/VERDUN.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.1.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/VERDUN.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.2.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/Log/Server/VERDUN.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.3.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/Server/VERDUN.log.lck" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Client/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client/FrontEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/FrontEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/IFrontEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/IFrontEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Replicas/Replica3/ReplicaManager3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replicas/Replica3/ReplicaManager3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/runFrontend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/runFrontend.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,19 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplicaManager1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replicas.Replica1.ReplicaManager1" />
-      <module name="MTBS-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Replicas.Replica1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReplicaManager2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Replicas.Replica2.ReplicaManager2" />
       <module name="MTBS-Project" />
@@ -158,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="runFrontend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Frontend.runFrontend" />
+      <module name="MTBS-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.runFrontend" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Replicas.Replica2.ServerInstance" />
         <item itemvalue="Application.ReplicaManager2" />
         <item itemvalue="Application.ServerInstance" />
-        <item itemvalue="Application.ReplicaManager1" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +156,9 @@
       <workItem from="1680722269450" duration="9286000" />
       <workItem from="1680737262406" duration="1487000" />
       <workItem from="1680826234013" duration="1826000" />
-      <workItem from="1680839865449" duration="701000" />
+      <workItem from="1680839865449" duration="1866000" />
+      <workItem from="1680882494223" duration="3000" />
+      <workItem from="1680912521301" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="Added Started code">
       <created>1680293696636</created>
@@ -242,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680734915105</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Http in client and Frontend">
+      <created>1680841608344</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680841608344</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +248,8 @@
     <MESSAGE value="Added Server" />
     <MESSAGE value="Modified code" />
     <MESSAGE value="Added crash failure code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added crash failure code" />
+    <MESSAGE value="Added Http in client and Frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Http in client and Frontend" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

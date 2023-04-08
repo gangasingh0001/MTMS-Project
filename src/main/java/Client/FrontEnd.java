@@ -103,8 +103,8 @@ public class FrontEnd {
 
     public void getUrlRef() {
         try {
-            url = new URL("http://localhost:8080/"+"frontend"+"?wsdl");
-            QName qName = new QName("http://Frontend.IFrontEnd/", "FrontEndService");
+            url = new URL("http://localhost:8085/"+"frontend"+"?wsdl");
+            QName qName = new QName("http://Frontend/", "FrontEndService");
             serviceAPI = Service.create(url, qName);
             movieTicketServiceObj = serviceAPI.getPort(IFrontEnd.class); //Port of Interface at which Implementation is running
         } catch (MalformedURLException ex) {
