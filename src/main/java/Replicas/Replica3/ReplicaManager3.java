@@ -282,10 +282,11 @@ public class ReplicaManager3 {
         if(Replica_3_Port==8083) {
             Replicas.Server.Service.IMovieTicket movieTicketServiceObj = null;
             try {
-                url = new URL("http://localhost:"+Replica_3_Port+"/"+Replicas.Replica3.Shared.data.Util.getServerFullNameByCustomerID(input.customerID)+"?wsdl");
+                url = new URL("http://192.168.151.119:"+Replica_3_Port+"/"+Replicas.Replica3.Shared.data.Util.getServerFullNameByCustomerID(input.customerID)+"?wsdl");
                 QName qName = new QName(urlChanged, "MovieTicketService");
                 serviceAPI = Service.create(url, qName);
-                movieTicketServiceObj = serviceAPI.getPort(Replicas.Server.Service.IMovieTicket.class);
+                qName = new QName(urlChanged, "MovieTicketPort");
+                movieTicketServiceObj = serviceAPI.getPort(qName,Replicas.Server.Service.IMovieTicket.class);
 
             } catch (MalformedURLException ex) {
                 ex.getStackTrace();
@@ -357,7 +358,7 @@ public class ReplicaManager3 {
                 Introduced Software bug at particular movieID
                  */
                     String dummyMovieId;
-                    if(input.movieID.equals("ATWA120423")) dummyMovieId="ATWA130423";
+                    if(input.movieID.equals("ATWM120423")) dummyMovieId="ATWA130423";
                     else dummyMovieId = input.movieID;
 
 

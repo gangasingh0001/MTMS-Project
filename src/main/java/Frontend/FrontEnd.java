@@ -180,6 +180,7 @@ public class FrontEnd implements IFrontEnd{
         }
         filteredList = sortRmResponses.sortRm(filteredList);
         // check if RM is down
+        System.out.println("Response list size: "+ filteredList.size());
         if(filteredList.size()<3) {
             if(filteredList.get(0).replicaManager==1) {
                 if(filteredList.get(1).replicaManager==2) {
@@ -198,16 +199,18 @@ public class FrontEnd implements IFrontEnd{
             }
         } else if(filteredList.get(0).response.equals(filteredList.get(1).response)) {
                 if(filteredList.get(1).response.equals(filteredList.get(2).response)) {
+                    System.out.println("All responses matched");
                     return filteredList.get(0).response;
                 } else {
                     //rmHasBug(3);
                     // Rm 3 has bug
-                    if(bugCount==1) {
-                        rmHasBug(3);
-                        bugCount = 3;
-                    }
-                    else
-                        bugCount--;
+                    rmHasBug(3);
+
+//                    if(bugCount==1) {
+//                        bugCount = 3;
+//                    }
+//                    else
+//                        bugCount--;
                     System.out.println("Bug in RM 3");
                     return filteredList.get(1).response;
                 }
