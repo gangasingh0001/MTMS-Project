@@ -1915,3 +1915,455 @@ Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | 
 OUTREMONT 
 Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
 
+10/04/2023 02:07:04: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@7eac9008
+10/04/2023 02:07:04: 16::Replicas.Replica3.Server::requestlistener::Listener Datagram port : 2507
+10/04/2023 02:07:04: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Thread name: ATWATER
+10/04/2023 02:07:04: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+10/04/2023 02:07:04: 16::Replicas.Replica3.Server::requestlistener::Request Listener initiated for server ATWATER
+10/04/2023 02:10:10: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@7eac9008
+10/04/2023 02:10:10: 16::Replicas.Replica3.Server::requestlistener::Listener Datagram port : 2507
+10/04/2023 02:10:10: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Thread name: ATWATER
+10/04/2023 02:10:10: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+10/04/2023 02:10:10: 16::Replicas.Replica3.Server::requestlistener::Request Listener initiated for server ATWATER
+10/04/2023 02:33:19: 22::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 02:33:19: 22::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 02:35:22: 23::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 02:35:22: 23::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 02:40:31: 24::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 02:40:31: 24::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:09:25: 25::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:09:25: 25::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:13:20: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@7eac9008
+10/04/2023 03:13:20: 16::Replicas.Replica3.Server::requestlistener::Listener Datagram port : 2507
+10/04/2023 03:13:20: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Thread name: ATWATER
+10/04/2023 03:13:20: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+10/04/2023 03:13:20: 16::Replicas.Replica3.Server::requestlistener::Request Listener initiated for server ATWATER
+10/04/2023 03:14:23: 22::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:14:23: 22::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:16:20: 23::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:16:20: 23::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:17:28: 23::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:17:28: 23::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:19:42: 24::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:19:42: 24::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:21:47: 25::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:21:47: 25::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:23:26: 26::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:23:26: 26::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:25:38: 27::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:25:38: 27::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:25:56: 27::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:25:56: 27::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:27:13: 28::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:27:13: 28::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:32:42: 29::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:32:42: 29::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:39:20: 30::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:39:20: 30::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:42:22: 31::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:42:22: 31::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:54:48: 32::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:54:48: 32::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:55:35: 32::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:55:35: 32::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:56:19: 32::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:56:19: 32::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:57:00: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@7eac9008
+10/04/2023 03:57:00: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::Thread name: ATWATER
+10/04/2023 03:57:00: 16::Replicas.Replica3.Server::requestlistener::Listener Datagram port : 2507
+10/04/2023 03:57:00: 1::Replicas.Replica3.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+10/04/2023 03:57:00: 16::Replicas.Replica3.Server::requestlistener::Request Listener initiated for server ATWATER
+10/04/2023 03:57:18: 22::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:57:18: 22::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:58:09: 22::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:58:09: 22::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:59:48: 23::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 03:59:48: 23::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 04:00:19: 23::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 04:00:19: 23::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 04:00:46: 23::Replicas.Replica3.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+10/04/2023 04:00:46: 23::Replicas.Replica3.Service.MovieTicket::listMovieShowsAvailability:: MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+

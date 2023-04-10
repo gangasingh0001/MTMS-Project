@@ -55,7 +55,7 @@ public class Server extends Thread{
             requestlistener(movieTicketObj, serverPort, serverName);
         };
 
-        Endpoint endpoint = Endpoint.publish("http://localhost:8083/"+ serverName,movieTicketObj);
+        Endpoint endpoint = Endpoint.publish("http://192.168.151.119:8083/"+ serverName,movieTicketObj);
         logger.severe("Endpoint: "+ endpoint.toString());
 
         Thread listenerThread = new Thread(listenerTask);
