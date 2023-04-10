@@ -28,15 +28,15 @@ public class ReplicaManager2 {
     public ReplicaManager2(InetAddress multicastAddress, int multicastPort) throws IOException {
         // Create a MulticastSocket for receiving requests from the Sequencer
         this.socket = new MulticastSocket(multicastPort);
-        NetworkInterface networkInterface = NetworkInterface.getByName("en0");
+//        NetworkInterface networkInterface = NetworkInterface.getByName("en0");
         Enumeration<NetworkInterface> list = NetworkInterface.getNetworkInterfaces();
-        if (!networkInterface.supportsMulticast()) {
-            networkInterface.supportsMulticast();
-            System.out.println("Multicast is not supported on this interface.");
-        }
+//        if (!networkInterface.supportsMulticast()) {
+//            networkInterface.supportsMulticast();
+//            System.out.println("Multicast is not supported on this interface.");
+//        }
         // Join the multicast group
         this.multicastAddress = multicastAddress;
-        this.socket.setNetworkInterface(networkInterface);
+//        this.socket.setNetworkInterface(networkInterface);
         this.socket.joinGroup(multicastAddress);
 
         // Save the multicast address and port for sending responses back to the Sequencer
@@ -123,7 +123,7 @@ public class ReplicaManager2 {
 
             //System.out.println(aHost);
 
-            DatagramPacket request = new DatagramPacket(bytes, bytes.length, InetAddress.getLocalHost(), FrontEndPort);
+            DatagramPacket request = new DatagramPacket(bytes, bytes.length,InetAddress.getByName( "192.168.151.119"), FrontEndPort);
             socket.send(request);
         } catch (IOException e) {
             e.printStackTrace();
@@ -143,10 +143,15 @@ public class ReplicaManager2 {
         if(Replica_2_Port==8083) {
             Replicas.Server.Service.IMovieTicket movieTicketServiceObj = null;
             try {
-                url = new URL("http://localhost:"+Replica_2_Port+"/"+Replicas.Replica2.Shared.data.Util.getServerFullNameByCustomerID(input.customerID)+"?wsdl");
+                url = new URL("http://192.168.151.119:"+Replica_2_Port+"/"+Replicas.Replica2.Shared.data.Util.getServerFullNameByCustomerID(input.customerID).toUpperCase()+"?wsdl");
                 QName qName = new QName(urlChanged, "MovieTicketService");
                 serviceAPI = Service.create(url, qName);
-                movieTicketServiceObj = serviceAPI.getPort(Replicas.Server.Service.IMovieTicket.class);
+                System.out.println("Service name : "+serviceAPI.getServiceName());
+                System.out.println(serviceAPI.getWSDLDocumentLocation());
+                //serviceAPI.getPort()
+                qName = new QName(urlChanged, "MovieTicketPort");
+                movieTicketServiceObj = serviceAPI.getPort(qName, Replicas.Server.Service.IMovieTicket.class);
+                //movieTicketServiceObj = serviceAPI.getPort();
 
             } catch (MalformedURLException ex) {
                 ex.getStackTrace();
