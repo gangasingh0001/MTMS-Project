@@ -993,3 +993,93 @@ Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | 
 07/04/2023 08:13:28: 1::Client.FrontEnd::login::CustomerID: ATWA1212
 07/04/2023 08:13:28: 1::Client.FrontEnd::login::Server Name: ATWATER
 07/04/2023 08:13:28: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 02:29:31: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 02:29:31: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 02:29:31: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 02:30:58: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 02:30:58: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 02:30:58: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 02:33:17: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 02:33:17: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 02:33:17: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 02:35:20: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 02:35:20: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 02:35:20: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 02:40:29: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 02:40:29: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 02:40:29: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 03:09:22: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 03:09:22: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 03:09:22: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 03:09:34: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:14:20: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 03:14:20: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 03:14:20: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 03:14:32: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:16:18: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 03:16:18: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 03:16:18: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 03:16:30: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:17:27: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 03:17:27: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 03:17:27: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 03:17:38: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:19:40: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 03:19:40: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 03:19:40: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 03:19:52: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 03:21:57: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:23:36: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:25:48: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:26:06: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:27:23: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:32:52: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:39:17: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 03:39:17: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 03:39:17: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 03:39:30: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:42:32: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:54:58: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: All servers are down or packet is lost
+10/04/2023 03:55:44: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: All servers are down or packet is lost
+10/04/2023 03:56:29: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: All servers are down or packet is lost
+10/04/2023 03:57:16: 1::Client.FrontEnd::login::CustomerID: ATWA1212
+10/04/2023 03:57:16: 1::Client.FrontEnd::login::Server Name: ATWATER
+10/04/2023 03:57:16: 1::Client.FrontEnd::login::Server PORT: 2501
+10/04/2023 03:57:28: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: All servers are down or packet is lost
+10/04/2023 03:58:19: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 1 is down. Informing RM's to counter the downtime and attach to new server
+10/04/2023 03:59:58: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+
+10/04/2023 04:00:29: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: Replica: 2 is down .Informing RM's to counter the downtime and attach to new server
+10/04/2023 04:00:56: 1::Client.FrontEnd::referToSelectedMenuObj::CustomerID: ATWA1212 | MovieName: AVATAR | ServerResponse: ATWATER 
+Movie Name: AVATAR | MovieID: ATWM080423 | Seats Available: 50| Slot: Morning | Movie Date: 08/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA070423 | Seats Available: 50| Slot: Afternoon | Movie Date: 07/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA060423 | Seats Available: 50| Slot: Afternoon | Movie Date: 06/04/2023, 
+Movie Name: AVATAR | MovieID: ATWA090423 | Seats Available: 50| Slot: Afternoon | Movie Date: 09/04/2023, 
+
+VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023,
+
+OUTREMONT 
+Movie Name: AVATAR | MovieID: OUTE210323 | Seats Available: 30| Slot: Evening | Movie Date: 21/03/2023,
+

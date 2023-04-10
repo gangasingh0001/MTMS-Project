@@ -357,7 +357,7 @@ public class ReplicaManager3 {
                 Introduced Software bug at particular movieID
                  */
                     String dummyMovieId;
-                    if(input.movieID.equals("ATWA060423")) dummyMovieId="ATWA090423";
+                    if(input.movieID.equals("ATWA120423")) dummyMovieId="ATWA130423";
                     else dummyMovieId = input.movieID;
 
 
