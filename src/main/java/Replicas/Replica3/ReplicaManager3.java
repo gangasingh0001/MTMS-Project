@@ -216,7 +216,7 @@ public class ReplicaManager3 {
 
                     requestToServers(nextMessage,false);
                 }
-            } if(sequenceNumber==-2 && parts[1].equals("RM3")) { //RM has bug
+            } if(sequenceNumber==-2 && parts[1].equals("RM3")) { //RM has crash
                 this.urlChanged = "http://Service.Server.Replicas/";
                 this.Replica_3_Port = 8083;
                 while (!messageQueue.isEmpty()) {

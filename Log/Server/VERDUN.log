@@ -688,3 +688,116 @@ Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | 
 Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
 
 05/04/2023 05:26:56: 18::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:25:25: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@45ca843
+05/04/2023 06:25:25: 18::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2505
+05/04/2023 06:25:25: 18::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:25:25: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: VERDUN
+05/04/2023 06:25:25: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 06:26:18: 18::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+05/04/2023 06:26:18: 18::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:26:37: 18::Replicas.Replica2.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+05/04/2023 06:26:37: 18::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:27:55: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@45ca843
+05/04/2023 06:27:55: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::Thread name: VERDUN
+05/04/2023 06:27:55: 18::Replicas.Replica2.Server::requestlistener::Listener Datagram port : 2505
+05/04/2023 06:27:55: 18::Replicas.Replica2.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:27:55: 1::Replicas.Replica2.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 06:33:11: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@45ca843
+05/04/2023 06:33:11: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: VERDUN
+05/04/2023 06:33:11: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 06:33:11: 18::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2502
+05/04/2023 06:33:11: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:33:49: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@45ca843
+05/04/2023 06:33:49: 18::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2502
+05/04/2023 06:33:49: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:33:49: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: VERDUN
+05/04/2023 06:33:49: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+05/04/2023 06:34:36: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+05/04/2023 06:34:36: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:35:58: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+05/04/2023 06:35:58: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:36:54: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+05/04/2023 06:36:54: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:45:15: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+05/04/2023 06:45:15: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:46:15: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+05/04/2023 06:46:15: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:46:58: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+05/04/2023 06:46:58: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+05/04/2023 06:47:24: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+05/04/2023 06:47:24: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:15:15: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@45ca843
+06/04/2023 08:15:15: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: VERDUN
+06/04/2023 08:15:15: 18::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2502
+06/04/2023 08:15:15: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+06/04/2023 08:15:15: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:16:44: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+06/04/2023 08:16:44: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:21:58: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+06/04/2023 08:21:58: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:22:31: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@45ca843
+06/04/2023 08:22:31: 18::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2502
+06/04/2023 08:22:31: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:22:31: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: VERDUN
+06/04/2023 08:22:31: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+06/04/2023 08:22:55: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+06/04/2023 08:22:55: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:23:52: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@45ca843
+06/04/2023 08:23:52: 18::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2502
+06/04/2023 08:23:52: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:23:52: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: VERDUN
+06/04/2023 08:23:52: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+06/04/2023 08:24:08: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+06/04/2023 08:24:08: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:27:30: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@45ca843
+06/04/2023 08:27:30: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: VERDUN
+06/04/2023 08:27:30: 18::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2502
+06/04/2023 08:27:30: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+06/04/2023 08:27:30: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:28:00: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+06/04/2023 08:28:00: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:35:42: 18::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWA070423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: VERM220323 at Theater: VERDUN
+06/04/2023 08:35:42: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:37:04: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Endpoint: com.sun.xml.internal.ws.transport.http.server.EndpointImpl@45ca843
+06/04/2023 08:37:04: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::Thread name: VERDUN
+06/04/2023 08:37:04: 18::Replicas.Replica1.Server::requestlistener::Listener Datagram port : 2502
+06/04/2023 08:37:04: 1::Replicas.Replica1.Server::startListenerAndRegisterEndPoint::State of thread: RUNNABLE
+06/04/2023 08:37:04: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:37:40: 18::Replicas.Replica1.Service.MovieTicket::findNextAvailableSlot::CustomerID: ATWM1212 | MovieID: ATWA070423 | MovieName: AVATAR | ServerResponse: nextAvailableBookingID: VERM220323 at Theater: VERDUN
+06/04/2023 08:37:40: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:38:08: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+06/04/2023 08:38:08: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN
+06/04/2023 08:38:22: 18::Replicas.Replica1.Service.MovieTicket::getMoviesListInTheatre:: MovieName: AVATAR | ServerResponse: VERDUN 
+Movie Name: AVATAR | MovieID: VERM220323 | Seats Available: 30| Slot: Morning | Movie Date: 22/03/2023, 
+
+06/04/2023 08:38:22: 18::Replicas.Replica1.Server::requestlistener::Request Listener initiated for server VERDUN

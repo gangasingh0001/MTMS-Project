@@ -6,6 +6,7 @@ import Util.Constants;
 import Util.MessageResponseDataModel;
 import Util.sortRmResponses;
 
+import javax.jws.WebService;
 import javax.xml.ws.Endpoint;
 import java.io.IOException;
 import java.net.*;
@@ -16,24 +17,21 @@ import java.util.Objects;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
+@WebService(endpointInterface = "Frontend.IFrontEnd")
 public class FrontEnd implements IFrontEnd{
     private long startTime;
     private CountDownLatch latch;
-
     private int bugCount = 3;
     private static long DYNAMIC_TIMEOUT = 10000;
     private final List<String> responses = new ArrayList<>();
-    private IMovie movieService = null;
-    private IUser userService = null;
+//    private IMovie movieService = null;
+//    private IUser userService = null;
     UdpSendToSequencer frontend = null;
 
 
     UdpRecieveFromReplicaManager udpRecieveFromReplicaManager;
 
-    public FrontEnd(IUser userService,
-                    IMovie movieService) {
-        this.userService = userService;
-        this.movieService = movieService;
+    public FrontEnd() {
 
         Runnable listenerTask = () -> {
             udpRecieveFromReplicaManager = new UdpRecieveFromReplicaManager(Constants.FE_Port);
@@ -83,56 +81,56 @@ public class FrontEnd implements IFrontEnd{
     }
 
     @Override
-    public String addMovieSlots(String movieId, String movieName, int bookingCapacity) {
-        RequestBuilder myRequest = new RequestBuilder("addMovieSlots",this.userService.getUserID(),movieId,movieName,null,bookingCapacity,null);
+    public String addMovieSlots(String movieId, String movieName, int bookingCapacity, String adminID) {
+        RequestBuilder myRequest = new RequestBuilder("addMovieSlots",adminID,movieId,movieName,null,bookingCapacity,null);
         myRequest.setSequenceNumber(sendUdpUnicastToSequencer(myRequest));
         System.out.println("FE Implementation:addMovieSlots>>>" + myRequest.toString());
         return validateResponses(myRequest);
     }
 
     @Override
-    public String removeMovieSlots(String movieId, String movieName) {
-        RequestBuilder myRequest = new RequestBuilder("removeMovieSlots",this.userService.getUserID(),movieId,movieName,null,-1,null);
+    public String removeMovieSlots(String movieId, String movieName, String adminID) {
+        RequestBuilder myRequest = new RequestBuilder("removeMovieSlots",adminID,movieId,movieName,null,-1,null);
         myRequest.setSequenceNumber(sendUdpUnicastToSequencer(myRequest));
         System.out.println("FE Implementation:removeMovieSlots>>>" + myRequest.toString());
         return validateResponses(myRequest);
     }
 
     @Override
-    public String listMovieShowsAvailability(String movieName) {
-        RequestBuilder myRequest = new RequestBuilder("listMovieShowsAvailability",this.userService.getUserID(),null,movieName,null,-1,null);
+    public String listMovieShowsAvailability(String movieName, String adminID) {
+        RequestBuilder myRequest = new RequestBuilder("listMovieShowsAvailability",adminID,null,movieName,null,-1,null);
         myRequest.setSequenceNumber(sendUdpUnicastToSequencer(myRequest));
         System.out.println("FE Implementation:listMovieShowsAvailability>>>" + myRequest.toString());
         return validateResponses(myRequest);
     }
 
     @Override
-    public String bookMovieTickets(String customerID, String movieId, String movieName, int numberOfTickets) {
-        RequestBuilder myRequest = new RequestBuilder("bookMovieTickets",this.userService.getUserID(),movieId,movieName,null,numberOfTickets,null);
+    public String bookMovieTickets(String customerID, String movieId, String movieName, int numberOfTickets, String adminID) {
+        RequestBuilder myRequest = new RequestBuilder("bookMovieTickets",adminID,movieId,movieName,null,numberOfTickets,null);
         myRequest.setSequenceNumber(sendUdpUnicastToSequencer(myRequest));
         System.out.println("FE Implementation:bookMovieTickets>>>" + myRequest.toString());
         return validateResponses(myRequest);
     }
 
     @Override
-    public String getBookingSchedule(String customerID) {
-        RequestBuilder myRequest = new RequestBuilder("getBookingSchedule",this.userService.getUserID(),null,null,null,-1,null);
+    public String getBookingSchedule(String customerID, String adminID) {
+        RequestBuilder myRequest = new RequestBuilder("getBookingSchedule",adminID,null,null,null,-1,null);
         myRequest.setSequenceNumber(sendUdpUnicastToSequencer(myRequest));
         System.out.println("FE Implementation:getBookingSchedule>>>" + myRequest.toString());
         return validateResponses(myRequest);
     }
 
     @Override
-    public String cancelMovieTickets(String customerID, String movieID, String movieName, int numberOfTickets) {
-        RequestBuilder myRequest = new RequestBuilder("cancelMovieTickets",this.userService.getUserID(),movieID,movieName,null,numberOfTickets,null);
+    public String cancelMovieTickets(String customerID, String movieID, String movieName, int numberOfTickets, String adminID) {
+        RequestBuilder myRequest = new RequestBuilder("cancelMovieTickets",adminID,movieID,movieName,null,numberOfTickets,null);
         myRequest.setSequenceNumber(sendUdpUnicastToSequencer(myRequest));
         System.out.println("FE Implementation:cancelMovieTickets>>>" + myRequest.toString());
         return validateResponses(myRequest);
     }
 
     @Override
-    public String exchangeTicket(String customerID, String movieID, String movieName, String newMovieID, String newMovieName) {
-        RequestBuilder myRequest = new RequestBuilder("exchangeTicket",this.userService.getUserID(),movieID,movieName,newMovieID,-1,newMovieName);
+    public String exchangeTicket(String customerID, String movieID, String movieName, String newMovieID, String newMovieName, String adminID) {
+        RequestBuilder myRequest = new RequestBuilder("exchangeTicket",adminID,movieID,movieName,newMovieID,-1,newMovieName);
         myRequest.setSequenceNumber(sendUdpUnicastToSequencer(myRequest));
         System.out.println("FE Implementation:exchangeTicket>>>" + myRequest.toString());
         return validateResponses(myRequest);
@@ -202,7 +200,7 @@ public class FrontEnd implements IFrontEnd{
                 if(filteredList.get(1).response.equals(filteredList.get(2).response)) {
                     return filteredList.get(0).response;
                 } else {
-                    rmHasBug(3);
+                    //rmHasBug(3);
                     // Rm 3 has bug
                     if(bugCount==1) {
                         rmHasBug(3);
